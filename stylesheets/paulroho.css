@@ -1,0 +1,19 @@
+/* from navbar-fixed-top.css */
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+/* Fake a navbar dropdown split button */
+li.dropdown-split-text a{
+	padding-right:.4ex;
+}
+li.dropdown-split-dropdown > a{
+	padding-left:.4ex;
+}
+
+/* Avoid the fixed navbar to hide local anchors */
+a[name] {
+	padding-top:31px;	
+	display:inline;
+}

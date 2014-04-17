@@ -7,10 +7,11 @@
     <title>paulroho.com - Paul Rohorzka on Developing Software</title>
 
     <!-- Bootstrap -->
-    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-
+    <link rel="stylesheet" href="stylesheets/bootswatch.darkly.min.css">
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">-->
+	<link rel="stylesheet" href="stylesheets/paulroho.css">
+	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,12 +20,75 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">paulroho.com</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">paulroho.com</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li class="dropdown-split-text"><a href="#tools">Tools</a></li>
+            <li class="dropdown dropdown-split-dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#tools">All Tools</a></li>
+                <li class="divider"></li>
+                <li><a href="#">scDbDevTools</a></li>
+                <li><a href="#">...</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+		  </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Developing Software</h1>
+        <p><small>The craft of creating software<br/>Software that evolves</small></p>
+		<!--<p><span class="glyphicon glyphicon-random"/><span></p>-->
+        <!--<p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        </p>-->
+      </div>
+	  
+	  <p>Some introductory content</p>
+
+	  <a name="blog">&nbsp;</a>
+	  <h1>Blog</h1>
+	  <p>The awesome blog</p>
+	  
+	  <a name="tools">&nbsp;</a>
+	  <h1>Tools</h1>
+	  <p>Here go the awesome tools</p>
+	  
+	  <a name="about">&nbsp;</a>
+	  <h1>About</h1>
+	  <p>What there is to say about myself</p>
+	  
+	  <a name="contact">&nbsp;</a>
+	  <h1>Contact</h1>
+	  <p>How to get in contact with me</p>
+    </div> <!-- /container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!--<script src="js/bootstrap.min.js"></script>-->
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   </body>
 </html>
