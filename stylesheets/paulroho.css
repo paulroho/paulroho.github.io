@@ -99,3 +99,8 @@ a[name] {
 	padding-top:31px;	
 	display:inline;
 }
+
+.navbar-header .navbar-brand.active {
+  color: #ffffff;
+  background-color: #28415b;
+}
