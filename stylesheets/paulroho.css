@@ -1,7 +1,46 @@
 /* from navbar-fixed-top.css */
 body {
-  min-height: 2000px;
+  min-height: 1000px;
   padding-top: 70px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height plus some extra space */
+  margin-bottom: 100px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 85px;
+  background-color: #1F3247;
+}
+    #footer > .container .text-muted {
+        margin: 15px 0;
+    }
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* Fake a navbar dropdown split button */
