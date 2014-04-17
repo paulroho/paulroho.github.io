@@ -32,7 +32,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 15px 15px 0;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -49,6 +49,49 @@ li.dropdown-split-text a{
 }
 li.dropdown-split-dropdown > a{
 	padding-left:.4ex;
+}
+
+.jumbotron {
+    padding: 8px 20px;
+}
+.head-break {
+    display: none;
+}
+.jumbotron .subtext {
+    padding-left:15px;
+}
+.jumbotron .subtext .just-small {
+    display:block;
+}
+.jumbotron .subtext .just-large {
+    display:none;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+    .container .jumbotron {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .head-break {
+        display:inline;
+    }
+    .jumbotron .subtext {
+        padding-top:85px;
+        padding-left:40px;
+    }
+    .jumbotron .subtext .just-small {
+        display: none;
+    }
+    .jumbotron .subtext .just-large {
+        display: block;
+        line-height:3ex;
+    }
 }
 
 /* Avoid the fixed navbar to hide local anchors */
