@@ -21,7 +21,8 @@
   </head>
   <body>
 {% assign current = page.url | downcase | split: '/' %}
-{{ current.length }}
+{{ page.url }}<br/>
+{{ current }}
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
