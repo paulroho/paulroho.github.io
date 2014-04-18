@@ -20,6 +20,11 @@
     <![endif]-->
   </head>
   <body>
+{% assign current = page.url | downcase | split: '/' %}
+{% if current[1] == 'tools' %}class='active' (tools){% endif %}
+{% if current[1] == 'about' %}class='active' (about){% endif %}
+{% if current[1] == 'contact' %}class='active' (contact){% endif %}
+
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
