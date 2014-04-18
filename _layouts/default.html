@@ -20,9 +20,6 @@
     <![endif]-->
   </head>
   <body>
-{% assign current = page.url | downcase | split: '/' %}
-{{ page.url }}<br/>
-{{ current }}
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -32,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">paulroho.com</a>
+          <a class="navbar-brand{% if current[1] == 'index.html' %}active{% endif %}" href="/">paulroho.com</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
