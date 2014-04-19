@@ -12,14 +12,14 @@ html {
 }
 body {
   /* Margin bottom by footer height plus some extra space */
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 85px;
+  height: 65px;
   background-color: #1F3247;
 }
     #footer > .container .text-muted {
