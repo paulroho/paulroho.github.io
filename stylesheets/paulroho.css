@@ -119,3 +119,19 @@ a[name] {
   color: #ffffff;
   background-color: #28415b;
 }
+
+@media screen and (max-width: 767px) {
+    .dl-horizontal dt {
+        float: left;
+        width: 60px;
+        clear: left;
+        text-align: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 80px;
+    }
+}
