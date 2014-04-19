@@ -137,7 +137,6 @@ a[name] {
 }
 
 .container .groupbox {
-    background-color: #303030;
     margin: 20px 0;
     border-color: gray;
     border-width: thin;
@@ -145,6 +144,7 @@ a[name] {
 
 @media screen and (min-width: 768px) {
     .container .groupbox {
+        max-width:500px;
         background-color: #303030;
         padding: 20px;
         border-radius: 6px;
