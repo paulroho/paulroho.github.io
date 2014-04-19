@@ -1,2 +1,5 @@
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title.html
+name:         PaulRoho.com - On Developing Software
+description:  Paul Rohorzka on developing software. Software that evolves. The craft of creating software.
+url:          http://paulroho.com
