@@ -135,3 +135,7 @@ a[name] {
         margin-left: 80px;
     }
 }
+
+.container .groupbox {
+    background-color:#303030;
+}
