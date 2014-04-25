@@ -1,0 +1,70 @@
+﻿th.tag-column {
+    min-width:100px;
+    max-width:100px;
+}
+
+/*** Effort */
+.effort-low {
+    color:#00bc8c;   /* after contextual class "success" from bootswatch darkly */
+}
+    .effort-low::after {
+        content: "low";
+    }
+
+.effort-medium {
+    color:#3498db;   /* after contextual class "info" from bootswatch darkly */
+}
+    .effort-medium::after {
+        content: "medium";
+    }
+
+.effort-high {
+    color:#f39c12;   /* after contextual class "warning" from bootswatch darkly */
+}
+    .effort-high::after {
+        content: "high";
+    }
+
+/**** Importance */
+.importance-later {
+    color:#00bc8c;   /* after contextual class "success" from bootswatch darkly */
+}
+    .importance-later::after {
+        content: "later";
+    }
+
+.importance-soon {
+    color:#3498db;   /* after contextual class "info" from bootswatch darkly */
+}
+    .importance-soon::after {
+        content: "soon";
+    }
+
+.importance-asap {
+    color:#f39c12;   /* after contextual class "warning" from bootswatch darkly */
+}
+    .importance-asap::after {
+        content: "asap";
+    }
+    
+/**** Status */
+.status-wip {
+    color:#00bc8c;   /* after contextual class "success" from bootswatch darkly */
+}
+    .status-wip::after {
+        content: "wip";
+    }
+
+.status-done {
+    color:#3498db;   /* after contextual class "info" from bootswatch darkly */
+}
+    .status-done::after {
+        content: "done";
+    }
+
+.status-todo {
+    color:#f39c12;   /* after contextual class "warning" from bootswatch darkly */
+}
+    .status-todo::after {
+        content: "todo";
+    }

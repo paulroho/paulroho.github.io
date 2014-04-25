@@ -3,22 +3,137 @@ layout: default
 ---
 <h1>The Making of {{ site.urlhtml }}</h1>
 
-<p>{{ site.urlhtml }} is currently a work in progress. Since I like the idea of make projects openly, I use this page as a kind of todo-list or backlog.</p>
+<p>{{ site.urlhtml }} is currently a work in progress. Since I like the idea of doing projects in the open, I use this page as a kind of public todo-list or backlog.</p>
 
 <h2>Backlog</h2>
-<p>The following lists things I need or want to have on {{ site.urlhtml }}. Along with each item it shows the status of it's implementation.</p>
+<p>The following lists things I need or want to have on {{ site.urlhtml }}. Along with each item it shows the status of its implementation.<br/>Although not being very strict about it, I will move the tasks scheduled to be done next on top of the list. Apart from that, ordering is arbitrarily.</p>
 
-<table class="table">
-<thead></thead>
+<table class="table table-bordered">
+<thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
+<th class="tag-column">Effort</th>
+<th class="tag-column">Importance</th>
+<th class="tag-column">Status</th>
+<th>Topic</th>
 </tr>
-<body></body>
+</thead>
+<tbody>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td class="effort-medium"></td>
+<td class="importance-asap"></td>
+<td class="status-todo"></td>
+<td>Create/fill startpage<ul><li>Topics to be expected</li><li>News</li><li>Latest blog posts</li><li>???</li></ul></td>
 </tr>
+<tr>
+<td class="effort-high"></td>
+<td class="importance-asap"></td>
+<td class="status-todo"></td>
+<td>Document learnings of creating {{ site.urlhtml }}<br/>Topics:<ul><li>jekyll/github pages</li><li>Windows UTF-8 w/o BOM</li><li>Navbar dropdown split (for tools)</li><li>...</li></ul></td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-soon"></td>
+<td class="status-todo"></td>
+<td>RSS-feed</td>
+</tr>
+<tr>
+<td class="effort-high"></td>
+<td class="importance-asap"></td>
+<td class="status-todo"></td>
+<td>Import old posts from <a href="http://devingdever.blogspot.com">DevingDever</a>:
+<ul><li>Prefix with hint to original url</li><li>Remove content from old blog, link to new article</li></ul></td>
+</tr>
+<tr>
+<td class="effort-high"></td>
+<td class="importance-soon"></td>
+<td class="status-todo"></td>
+<td>Support German language content</td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-soon"></td>
+<td class="status-todo"></td>
+<td>Blog: tags/categories</td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-soon"></td>
+<td class="status-todo"></td>
+<td>Blog: Tag-cloud</td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-asap"></td>
+<td class="status-todo"></td>
+<td>Subsite for Access topics? Provide tools there. Routes like /access/tools/dbdevtools</td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-soon"></td>
+<td class="status-todo"></td>
+<td>case-insensitive URLs?</td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-asap"></td>
+<td class="status-todo"></td>
+<td>Blog: Comments (Disqus, Discourse?)</td>
+</tr>
+<tr>
+<td class="effort-low"></td>
+<td class="importance-asap"></td>
+<td class="status-todo"></td>
+<td>Publishing<br/>Announcements:<ul><li>post at <a href="http://devingdever.blogspot.com">DevingDever</a></li><li>news entry/start page entry at <a href="http://softconcept.at">www.softconcept.at</a></li><li>Tweet</li></ul></td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-later"></td>
+<td class="status-todo"></td>
+<td>about/paul/nontech<br/>Topics:<ul><li>Music<ul><li>Projects</li><li>Bands</li><li>Theatre</li><li>M&auml;rchenbastelstube</li></ul></li><li>Radio? - EP-Beitrag?</li></ul></td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-later"></td>
+<td class="status-todo"></td>
+<td>support less stylesheets</li></ul></td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-soon"></td>
+<td class="status-todo"></td>
+<td>research how to let table cells wrap on low-width viewports</li></ul></td>
+</tr>
+</tbody>
+</table>
+
+<h2>Tasks Done</h2>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th class="tag-column">Effort</th>
+<th class="tag-column">Importance</th>
+<th class="tag-column">Status</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-soon"></td>
+<td class="status-done"></td>
+<td>Fill /about</td>
+</tr>
+<tr>
+<td class="effort-low"></td>
+<td class="importance-asap"></td>
+<td class="status-done"></td>
+<td>Fill /contact</td>
+</tr>
+<tr>
+<td class="effort-medium"></td>
+<td class="importance-later"></td>
+<td class="status-done"></td>
+<td>Provide footer</td>
+</tr>
+</tbody>
 </table>
