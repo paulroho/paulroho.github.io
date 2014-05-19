@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://paulroho.com/Tools/DbDevTools/SCC.Query.v2.xsd" targetNamespace="http://paulroho.com/Tools/DbDevTools/SCC.Query.v2.xsd" elementFormDefault="qualified">
+	<xs:element name="query" type="Query"/>
+	<xs:complexType name="Query">
+		<xs:sequence>
+			<xs:element name="sql" type="xs:string"/>
+			<xs:element name="dateCreated" type="xs:dateTime"/>
+			<xs:element name="lastUpdated" type="xs:dateTime"/>
+			<xs:element name="type" type="QueryDefTypeEnum"/>
+			<xs:element name="updatable" type="xs:boolean"/>
+			<xs:element name="connect" type="xs:string"/>
+			<xs:element name="returnsRecords" type="xs:boolean"/>
+			<xs:element name="odbcTimeout" type="xs:int"/>
+			<xs:element name="maxRecords" type="xs:int"/>
+			<xs:element name="recordLocks" type="xs:int"/>
+			<xs:element name="useTransaction" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="recordsetType" type="xs:int"/>
+			<xs:element name="orderByOn" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="orientation" type="xs:int"/>
+			<xs:element name="defaultView" type="xs:int" minOccurs="0"/>
+			<xs:element name="filterOnLoad" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="orderByOnLoad" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="totalsRow" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="displayViewsOnSharePointSite" type="xs:int" minOccurs="0"/>
+			<xs:element name="hideNewField" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="backTint" type="xs:int" minOccurs="0"/>
+			<xs:element name="backShade" type="xs:int" minOccurs="0"/>
+			<xs:element name="themeFontIndex" type="xs:int" minOccurs="0"/>
+			<xs:element name="alternateBackThemeColorIndex" type="xs:int" minOccurs="0"/>
+			<xs:element name="alternateBackTint" type="xs:int" minOccurs="0"/>
+			<xs:element name="alternateBackShade" type="xs:int" minOccurs="0"/>
+			<xs:element name="datasheetGridlinesThemeColorIndex" type="xs:int" minOccurs="0"/>
+			<xs:element name="datasheetForeThemeColorIndex" type="xs:int" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="QueryDefTypeEnum">
+		<xs:restriction base="xs:int">
+			<xs:enumeration value="0"/>		<!-- dbQSelect = 0 -->
+			<xs:enumeration value="240"/>	<!-- dbQAction = 240 (&HF0) -->
+			<xs:enumeration value="64"/>	<!-- dbQAppend = 64 (&H40)  -->
+			<xs:enumeration value="160"/>	<!-- dbQCompound = 160 (&HA0) -->
+			<xs:enumeration value="16"/>	<!-- dbQCrosstab = 16 (&H10) -->
+			<xs:enumeration value="96"/>	<!-- dbQDDL = 96 (&H60) -->
+			<xs:enumeration value="32"/>	<!-- dbQDelete = 32 (&H20) -->
+			<xs:enumeration value="80"/>	<!-- dbQMakeTable = 80 (&H50) -->
+			<xs:enumeration value="224"/>	<!-- dbQProcedure = 224 (&HE0) -->
+			<xs:enumeration value="128"/>	<!-- dbQSetOperation = 128 (&H80) -->
+			<xs:enumeration value="144"/>	<!-- dbQSPTBulk = 144 (&H90) -->
+			<xs:enumeration value="112"/>	<!-- dbQSQLPassThrough = 112 (&H70) -->
+			<xs:enumeration value="48"/>	<!-- dbQUpdate = 48 (&H30)  -->
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
