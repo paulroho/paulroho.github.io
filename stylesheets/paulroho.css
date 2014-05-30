@@ -151,3 +151,13 @@ a[name] {
         border-style: solid;
     }
 }
+
+/* Draft ribbon, courtesy http://simonwhitaker.github.io/github-fork-ribbon-css/ */
+/* The default background color is #c00 */
+.github-fork-ribbon-wrapper {
+		position:fixed;
+		top:60px;
+}
+.right-bottom .github-fork-ribbon {
+		background-color: #090;
+}

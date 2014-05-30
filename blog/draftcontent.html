@@ -1,0 +1,16 @@
+---
+layout: blogdraft
+---
+	  <h1>You Have Hit Draft Content</h1>
+	  <p>Some posts on {{site.urlhtml}} are not finished yet. They are marked with the ribbon on the top right corner of the page (as you can see on this page as well).</p>
+		<p>Those posts are not to be considered part of the official content here. Therefore, you should not find any link to such posts. If there is one out there, I would be glad if you could drop me a line (see <a href="/contact/">contact</a>).</p>
+		<p>Currently, those drafts exist:</p>
+	<ul>
+	  {% for post in site.posts %}
+		{% if post.draft %}
+			<li>
+			  <a href="{{ post.url }}">{{ post.title }}</a>
+			</li>
+		{% endif %}
+	  {% endfor %}
+	</ul>
