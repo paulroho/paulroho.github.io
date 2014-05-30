@@ -38,7 +38,7 @@ body > .container {
   margin: 20px 0;
 }
 
-.container > img {
+.container img {
 	border-style: solid;
 	border-width: 1px;
 	border-color: gray;
