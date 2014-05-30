@@ -23,6 +23,7 @@
   <body>
   {% assign current = page.url | downcase | split: '/' %}
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -53,14 +54,17 @@
       </div>
     </div>
 			
+			<div id="contentcontainer">
+			
     <div class="container">
 			<div class="github-fork-ribbon-wrapper right">
 					<div class="github-fork-ribbon">
-							DRAFT CONTENT
+							<a href="#">DRAFT CONTENT</a>
 					</div>
 			</div>
 	  {{ content }}
-    </div> <!-- /container -->
+    </div>
+		</div>
 
 	<div id="footer">
       <div class="container">
