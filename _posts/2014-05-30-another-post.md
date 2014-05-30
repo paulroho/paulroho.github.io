@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blogdraft
 title: Another post
 draft: true
 ---
