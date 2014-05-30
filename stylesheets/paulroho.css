@@ -38,6 +38,12 @@ body > .container {
   margin: 20px 0;
 }
 
+.container > img {
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+
 #footer > .container {
   padding-right: 15px;
   padding-left: 15px;
