@@ -7,7 +7,7 @@ layout: blogdraft
 		<p>Currently, those drafts exist:</p>
 	<ul>
 	  {% for post in site.posts %}
-		{% if post.draft %}
+		{% if post.layout == 'blogdraft' %}
 			<li>
 			  <a href="{{ post.url }}">{{ post.title }}</a>
 			</li>
