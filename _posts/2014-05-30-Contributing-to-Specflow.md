@@ -1,7 +1,6 @@
 ---
 layout: blogdraft
 title: Contributing to SpecFlow
-draft: true
 ---
 
 

@@ -5,7 +5,7 @@ layout: blog
 	  <p>Latest post excerpts</p>
 	<ul>
 	  {% for post in site.posts %}
-		{% unless post.draft %}
+		{% unless post.layout == 'blogdraft' %}
 			<li>
 			  <a href="{{ post.url }}">{{ post.title }}</a>
 			</li>
