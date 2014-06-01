@@ -44,6 +44,15 @@ body > .container {
 	border-color: gray;
 }
 
+.container p.image {
+	margin-left: .5em;
+}
+@media screen and (min-width: 768px) {
+	.container p.image {
+		margin-left: 3em;
+	}
+}
+
 #footer > .container {
   padding-right: 15px;
   padding-left: 15px;
