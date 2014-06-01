@@ -38,7 +38,7 @@ To get the latest version of the SpecFlow sources do the following:
 	 Now you need the url of the repository to clone. That's easiest by copying it directly from the clone url textbox on the repository's site:
 
 	 ![HTTPS clone URL on GitHub](/images/posts/GetRepoCloneUrl.PNG)
-
+	{: .image}
 	 
 	 Back in Visual Studio, click the clone button, paste the url and change the local path if necessary:
 
