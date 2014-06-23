@@ -170,12 +170,12 @@ The following code fragment illustrates this:
     	...
     	public AddAddress(Address address)
     	{
-    	_addresses.Add(address);
+    	    _addresses.Add(address);
     	}
     	...
     	public IList<City> GetCities()
     	{
-    	return _addresses.Distinct(a => a.City).ToList();
+    	    return _addresses.Distinct(a => a.City).ToList();
     	}
     	...
     }
@@ -186,11 +186,11 @@ The only way to completely hinder this situation is to put a guard clause in fro
 
     public AddAddress(Address address)
     {
-		if (address == null)
-			throw new ArgumentNullException("address");
-	    _addresses.Add(address);
+    	if (address == null)
+    	throw new ArgumentNullException("address");
+    	_addresses.Add(address);
     }
-
+    
 With this little trick we can be sure that no null will be in `_addresses`.
 
 ## Guard Clause For Constructor Parameter
@@ -199,17 +199,17 @@ Let us now consider another incarnation of the class `Person`, where each person
 
     public class Person
     {
-	    private readonly Address _address;
-	    	
-	    public Person(Address address)
-	    {
-		    _address = address;
-	    }
-		...
-		public override string ToString()
-		{
-			return Name + " (" + _address.City + ")";
-		}
+        private readonly Address _address;
+        	
+        public Person(Address address)
+        {
+            _address = address;
+        }
+        ...
+        public override string ToString()
+        {
+            return Name + " (" + _address.City + ")";
+        }
     }
 
 From looking at method `ToString` we see that passing a non-null reference of Address is crucial, otherwise `ToString` would crash the program since it unconditionally access the `City` property.
@@ -237,4 +237,3 @@ With that in place we can be sure that each instance of `Person` has a non-null 
 
 
     
-NullReferenceException 
