@@ -146,9 +146,9 @@ That problem obviously occurs on the attempt to access a member of a reference v
 
 The best would be to avoid surprises on member access. In common that means putting a check for each of those variables before the first member access happens. This is sometimes called a **guard clause**:
 
-	if (x == null)
-		throw new ArgumentNullException("x");
-
+    if (x == null)
+       throw new ArgumentNullException("x");
+    
 > **TODO** Show a ArgumentNullException at runtime
 
 In the sense of **failing early**, we will want to add the guard clause as early as possible: on entry of a method or on beginning of a class, at construction.
@@ -166,32 +166,30 @@ The following code fragment illustrates this:
 
     public class Person
     {
-		private readonly IList<Address> _addresses;
-	    ...
-	    public AddAddress(Address address)
-	    {
-		    _addresses.Add(address);
-	    }
-	    ...
-		public IList<City> GetCities()
-		{
-			return _addresses.Distinct(a => a.City).ToList();
-		}
-	    ...
+    	private readonly IList<Address> _addresses;
+    	...
+    	public AddAddress(Address address)
+    	{
+    	_addresses.Add(address);
+    	}
+    	...
+    	public IList<City> GetCities()
+    	{
+    	return _addresses.Distinct(a => a.City).ToList();
+    	}
+    	...
     }
-
+    
 Once bitten, it is not difficult to see the spot for a NullReferenceException: it is the lambda-expression in `GetCities`. If any of the references in `_addresses` is null, a call to `GetCities` will throw a NullReferenceException. Therefore it is not feasible to even allow a null reference to be added to `_addresses`.
 
 The only way to completely hinder this situation is to put a guard clause in front of the call to `Add` in method `AddAddress`, resulting in
 
-    ...
     public AddAddress(Address address)
     {
 		if (address == null)
 			throw new ArgumentNullException("address");
 	    _addresses.Add(address);
     }
-    ...
 
 With this little trick we can be sure that no null will be in `_addresses`.
 
@@ -220,19 +218,19 @@ In this situation, the constructor is the proper place to put a guard clause:
 
     public class Person
     {
-	    private readonly Address _address;
-	    	
-	    public Person(Address address)
-	    {
-			if (address == null)
-				throw new ArgumentNullException("address");
-		    _address = address;
-	    }
-		...
-		public override string ToString()
-		{
-			return Name + " (" + _address.City + ")";
-		}
+        private readonly Address _address;
+    		
+        public Person(Address address)
+        {
+            if (address == null)
+                throw new ArgumentNullException("address");
+            _address = address;
+        }
+        ...
+        public override string ToString()
+        {
+            return Name + " (" + _address.City + ")";
+        }
     }
 
 With that in place we can be sure that each instance of `Person` has a non-null Address.
