@@ -37,20 +37,8 @@ First we will recap some very basic stuff here to get us all on the same page.
 
 Say we have a class `Person` with a property `Name`. A typical usage could look like this:
 
-{% highlight ruby %}
-    def show
-      @widget = Widget(params[:id])
-      respond_to do |format|
-        format.html # show.html.erb
-        format.json { render json: @widget }
-      end
-    end
-{% endhighlight %}
-
-{% highlight c# %}
     var me = new Person();
 	me.Name = "Paul";
-{% endhighlight %}
 
 Everything is easy and cozy. In the line `me.Name = "Paul";` we assign a value to the name of the object `me`.
 
