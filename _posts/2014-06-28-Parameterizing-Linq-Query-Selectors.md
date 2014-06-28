@@ -1,18 +1,18 @@
 ---
-layout: blogdraft
+layout: blog
 title: Parameterizing Linq Query Selectors
 ---
 
 
 # Parameterizing Linq Query Selectors
 
-Recently I had the requirement for a typical query method that should return a special object out of a kind of repository based on some parameter.
+Recently I had the requirement for a typical query method that should return a special object out of a kind of repository.
 
 To give the child a name, say we have a customer repository and we need to get a customer based on its customer number that would be a string. Thus, the method's signature would look like this:
 
     Customer GetCustomer(string customerNo)
 
-Fair enough, that looks like the obvious routine stuff: Query the underlying storage of customers to get the matching customer - nice and easy with linq:
+Fair enough, that looks like the obvious routine stuff: query the underlying storage of customers to get the matching customer - nice and easy with linq:
 
     Customer GetCustomer(string customerNo)
     {
@@ -32,7 +32,7 @@ In the implementation above, we would throw an **InvalidOperationException** bec
 
 That is just one possible behavior.
 
-### Option 2: Return null
+### Option 2: Return `null`
 One alternative would be to return `null`. To reach that, we just need to change the call to the extension method `Single` to `SingleOrDefault`:  
 
     Customer GetCustomer(string customerNo)
@@ -44,16 +44,16 @@ One alternative would be to return `null`. To reach that, we just need to change
 
 (In the context of this discussion, I will leave out other options such as returning some kind of *NullObject* or `Maybe<Customer>`)
 
-For me, choosing between those two options has not always been an easy decision. At worst it came that I mixed both approaches, resulting in an inconsistent api. 
+For me, choosing between those two options has not always been an easy decision. At worst it came that I mixed both approaches, resulting in an inconsistent and unpredictable api. 
 
 ## Convention `Xy()` and `XyOrDefault()`
 In recent years, being accustomed to the goodness and style of the **System.Linq namespace**, instead of choosing between one of the two option mentioned above, I would provide a pair of method, each implementing one of these options.
 
 There would be a method `GetCustomer` that throws an exception if it cannot find a proper object, and another method `GetCustomerOrDefault` that would return `null` in that case.
 
-Taking advantage of intellisense, it should be obvious for the user of the api which method to choose:
+Taking advantage of intellisense, it should be obvious for the user of the api which method to choose based on the needs of the calling code:
 
-![Intellisense for GetCustomer and GetCustomerOrDefault](/images/posts/ParameterizingLinqSelector/IntellisenseGetXyandGetXyOrDefault.png")
+![Intellisense for GetCustomer and GetCustomerOrDefault](/images/posts/ParameterizingLinqSelector/IntellisenseGetXyandGetXyOrDefault.png)
 {: .image}
 
 ### Implementation
@@ -78,7 +78,7 @@ Looking at this sample we could consider this task done and move on.
 
 ### Some Reality
 
-But if we consider a more realistic situation, i.e. that the ellipses hides a considerable amount of cruft, for example context/session handling or logging ceremony, and that the predicate would not be that simple, the whole story could rather look like this:
+But if we consider a more realistic situation, i.e. that the ellipses hides a considerable amount of cruft, such as context/session handling or logging ceremony, and that the predicate would not be that simple, the whole story could rather look like this:
 
     Customer GetCustomer(string customerNo)
     {
@@ -146,14 +146,14 @@ We can do this using a `Func` parameter. This parameter has to repeat the signat
 
 If we want to pass a delegate like this around, the delegate has to be of the following type:
     
-    Func<IEnumerable<T>> sequence, Func<T, bool>, T>
+    Func<IEnumerable<T>>, Func<T, bool>, T>
 
-For those not yet familiar with the `Func`-syntax, this denotes a delegate with two input parameters.
+For those not yet familiar with the `Func`-syntax, this denotes a delegate with two input parameters and a return value:
 
-1. A enumerable sequence of some type
-2. A predicate. That is a function that takes an object and returns a Boolean
+1. `IEnumerable<T>>`: A enumerable sequence of some type
+2. `Func<T, bool>`: A predicate. That is a function that takes an object and returns a Boolean
 
-The last type parameter defines the return value of the delegate being of the same type as the elements in the sequence of the first parameter.
+The last type parameter `T` defines the return value of the delegate being of the same type as the elements in the sequence of the first parameter.
 
 ### Putting It All Together 
 
@@ -230,7 +230,7 @@ from our original code.
 
 #### Are We Lost?
 
-At that point we just have to think one step further:
+No. At that point we just have to think one step further:
 
 The methods used with Linq such as `Single` or `SingleOrDefault` are brought to the scene in form of **extension methods** defined in the static class `System.Linq.Enumerable`. We can confirm this by going back to the declaration of the method `Single` as we have already seen above:
 
