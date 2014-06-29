@@ -27,11 +27,12 @@ body {
     }
 
 
-/* Custom page CSS
+	/* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
 body > .container {
+  background-color:#2A2A2A;
   padding: 15px 15px 0;
 }
 .container .text-muted {
@@ -177,4 +178,15 @@ a[name] {
 }
 .right-bottom .github-fork-ribbon {
 		background-color: #090;
+}
+
+
+code {
+	color: lightgrey;
+	background-color: #333;
+}
+
+pre {
+	color: lightgrey;
+	background-color: #333;
 }
