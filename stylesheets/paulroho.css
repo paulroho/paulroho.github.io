@@ -190,3 +190,7 @@ pre {
 	color: lightgrey;
 	background-color: #333;
 }
+
+pre code {
+	white-space: pre;
+}
