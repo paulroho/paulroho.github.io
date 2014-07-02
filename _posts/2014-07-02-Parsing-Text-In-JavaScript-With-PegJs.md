@@ -1,9 +1,9 @@
 ---
 layout: blogdraft
-title: Parsing Text In JavaScript With PEG.js
+title: Parsing Text With Peg.js
 ---
 
-# Parsing Text In JavaScript With PEG.js
+# Parsing Text With Peg.js
 
 Today I want to start documenting my journey towards parsing text in JavaScript. 
 
