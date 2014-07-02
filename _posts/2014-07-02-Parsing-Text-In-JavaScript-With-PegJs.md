@@ -21,14 +21,14 @@ What are most of us doing in the first minutes when being at the office on a lov
 
 That's the main part of the entry form:
 
-![Screenshot of the Grammar Editor](/images/posts/pegjs/TimeTrackingEntryForm.png)
+![Screenshot of the Grammar Editor](/images/posts/PegJs/TimeTrackingEntryForm.png)
 {: .image}
 
 So, nothing surprisingly. Just the _n_th incarnation of the same as seen in zillions systems like this around the globe.
 
 While working at the customer, most of us take their time tracking notes in some kind of plain-text format. On entering the data into our time tracker, we stupidly have to mark parts of the input and copy paste it into the corresponding field of the application:
 
-![Marked Time Data](/images/posts/pegjs/MarkedTimeData.png)
+![Marked Time Data](/images/posts/PegJs/MarkedTimeData.png)
 {: .image}
 
 Technically speaking, we perform a **parse** task to identify the different parts of our notes. We then extract those parts and move it's contents into the target system.
@@ -98,7 +98,7 @@ First version of the grammar that seems to work so far:
     
 Output:
 
-![Screenshot of the Grammar Editor](/images/posts/pegjs/ScreenshotGrammarEditor.png)
+![Screenshot of the Grammar Editor](/images/posts/PegJs/ScreenshotGrammarEditor.png)
 {: .image}
 
 You can find that version of the grammar here to play with: [http://peg.arcanis.fr/pNz2g/1/](http://peg.arcanis.fr/pNz2g/1/ "First version of the grammar").
