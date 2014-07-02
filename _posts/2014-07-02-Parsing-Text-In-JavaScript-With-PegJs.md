@@ -1,0 +1,104 @@
+---
+layout: blogdraft
+title: Parsing Text In JavaScript With PEG.js
+---
+
+# Parsing Text In JavaScript With PEG.js
+
+Today I want to start documenting my journey towards parsing text in JavaScript. 
+
+I will do this over several posts, right at the time something new happens in this area. So it should kind of real-time.
+
+## Motivation
+
+At my day-job I am working as a consultant. From Monday to Thursday I am at the customer's site. Every Friday there is "Office Day" at our employer's office. That's when I have the opportunity to meet most of my colleagues, talk to them, discuss ideas, chat about this and that.
+
+**There's one more thing to do**:
+
+Oh well.
+
+What are most of us doing in the first minutes when being at the office on a lovely Friday? We enter our work from the previous days into our beloved time tracking system. It might not surprise you: we do not greatly love that system.
+
+That's the main part of the entry form:
+
+![Screenshot of the Grammar Editor](/images/posts/pegjs/TimeTrackingEntryForm.png)
+{: .image}
+
+So, nothing surprisingly. Just the _n_th incarnation of the same as seen in zillions systems like this around the globe.
+
+While working at the customer, most of us take their time tracking notes in some kind of plain-text format. On entering the data into our time tracker, we stupidly have to mark parts of the input and copy paste it into the corresponding field of the application:
+
+![Marked Time Data](/images/posts/pegjs/MarkedTimeData.png)
+{: .image}
+
+Technically speaking, we perform a **parse** task to identify the different parts of our notes. We then extract those parts and move it's contents into the target system.
+
+**Aren't these the thing computers are made for?**
+
+So why not automate this stuff?
+
+Even when working at the company's office, I would prefer editing my whole time tracking data as a single text over humping around in some more or less intuitive and usable form with several distinct fields.
+
+Here is some sample tracking text as I note it done while working at the customer (changed some critical parts to not disclose proprietary information):
+
+    08:30-11:45 [C_3.4.2] PERSY: AD-sync concept update
+    11:45-12:15 Lunch
+    12:15-12:30 [C_3.4.2] PERSY: AD-sync documentation
+    12:30-12:45 [C_3.4.2] LEX: Issues staging epox
+    12:45-13:15 [C_3.4.2] PERSY: AD-sync documentation
+    13:15-14:30 [C_3.4.2] LEX: Issues staging epox
+    14:30-15:00 [C_3.4.2] PERSY: AD-Sync
+    15:00-16:00 [C_3.4.2] PERSY: Presentation AD-sync @tech jour fixe
+    16:00-16:30 [C_3.4.2] PERSY: AD-sync
+    16:30-18:00 [P_3.4.1.1] LePrCMS: source transfer
+    
+Pseudo grammar:
+
+    <from>-<to> [<workitemid>] <text>
+
+Playground: [http://peg.arcanis.fr/](http://peg.arcanis.fr/ "PEG.js - Grammar Editor by Maël Nison").
+
+First version of the grammar that seems to work so far: 
+
+    start
+    = (line)*
+    
+    line
+    = (time TO time SPACE (workitemidtag SPACE)? anytext)? EOL
+    
+    time
+    = digit digit ":" digit digit
+    
+    digit
+    = [0-9]
+    
+    workitemidtag
+    = LBRACKET workitemid RBRACKET
+    
+    workitemid
+    = [a-zA-Z0-9\.\_]+
+    
+    anytext
+    = (ascii / umlaut / interpunct / SPACE)+
+    
+    ascii
+    = [a-zA-Z0-9]
+    
+    umlaut
+    = [\xC4\xE4\xDC\xFC\xD6\xF6]
+    
+    interpunct
+    = [:()#-_!]
+    
+    EOL = "\n"
+    TO = "-"
+    SPACE = " "
+    LBRACKET = "["
+    RBRACKET = "]"
+    
+Output:
+
+![Screenshot of the Grammar Editor](/images/posts/pegjs/ScreenshotGrammarEditor.png)
+{: .image}
+
+You can find that version of the grammar here to play with: [http://peg.arcanis.fr/pNz2g/1/](http://peg.arcanis.fr/pNz2g/1/ "First version of the grammar").
