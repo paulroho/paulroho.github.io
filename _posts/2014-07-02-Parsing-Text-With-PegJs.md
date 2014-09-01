@@ -5,35 +5,36 @@ title: Parsing Text With Peg.js
 
 # Parsing Text With Peg.js
 
-Today I want to start documenting my journey towards parsing text in JavaScript. 
+Today start documenting my journey towards parsing text in JavaScript. 
 
-I will do this over several posts, right at the time something new happens in this area. So it should kind of real-time.
+I will do this over several posts, right at the time something new happens. So it should kind of real-time.
 
 ## Motivation
 
-At my day-job I am working as a consultant. From Monday to Thursday I am at the customer's site. Every Friday there is "Office Day" at our employer's office. That's when I have the opportunity to meet most of my colleagues, talk to them, discuss ideas, chat about this and that.
+At my day-job I am working as a consultant. From Monday to Thursday I am at the customer's site. Every Friday there is "Office Day" at our employer's office. That's when I have the opportunity to see most of my colleagues, talk to them, discuss ideas, chat about this and that, have meetings and internal trainings.
 
-**There's one more thing to do**:
+For the most part that is fun to do, but for me ...
 
-Oh well.
+**Every Friday starts with a draining task**
 
-What are most of us doing in the first minutes when being at the office on a lovely Friday? We enter our work from the previous days into our beloved time tracking system. It might not surprise you: we do not greatly love that system.
+In the first minutes at the office on a lovely Friday, I take the notes regarding the work from the previous days and enter them into our beloved time tracking system. As it might not surprise you: There is a somewhat patchy relation to that system.
 
-That's the main part of the entry form:
+Here's a makeover of the main part of the entry form: 
 
-![Screenshot of the Grammar Editor](/images/posts/PegJs/TimeTrackingEntryForm.png)
-{: .image}
+![Sketch of a time tracking entry form](/images/posts/PegJs/TimeTrackingEntryForm.png)
+{: .image}  
+(Wireframe stencils courtesy of [www.paulhibbitts.com/wireframe-stencils-for-powerpoint.html](www.paulhibbitts.com/wireframe-stencils-for-powerpoint.html "Hibbitts Design"))
 
 So, nothing surprisingly. Just the _n_th incarnation of the same as seen in zillions systems like this around the globe.
 
-While working at the customer, most of us take their time tracking notes in some kind of plain-text format. On entering the data into our time tracker, we stupidly have to mark parts of the input and copy paste it into the corresponding field of the application:
+While working at the customer, I take my time tracking notes in some kind of plain-text format. On entering the data into our time tracker, I then stupidly have to mark parts of the input and copy paste it into the corresponding field of the application:
 
 ![Marked Time Data](/images/posts/PegJs/MarkedTimeData.png)
 {: .image}
 
-Technically speaking, we perform a **parse** task to identify the different parts of our notes. We then extract those parts and move it's contents into the target system.
+Technically speaking, we perform a **parse** task to identify the different parts of our notes. We then extract those parts and move it's contents into the target system. Mechanical and draining.
 
-**Aren't these the thing computers are made for?**
+**But wait - these are the thing computers were made for!**
 
 So why not automate this stuff?
 
