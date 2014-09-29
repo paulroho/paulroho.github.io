@@ -1,6 +1,7 @@
 How to Innovate Business Processes and Create a Consumer-Grade User Experience with Tailored Enterprise-Ready Mobile Solutions
 ===
 by Oliver Betz (SAP) 
+
 ---
 Mainly developing for iOS (north american market)
 
@@ -20,8 +21,17 @@ SAP Mobility Design Center:
 * Create prototypes ensure user's delight, technical feasability
 * Deliver poduction ready solution
 
-Example: Kiewit (big US constrution company), 200 trucks a day (checkin in central office using backend system)
+Showcased different apps
+
+Interesting: different target platforms for different areas in the world:
+
+* App1: iOS, no Android in the US,
+* App2: even a blackberry app for the canadian market).
+
+*App1 :Example: Kiewit (big US constrution company), 200 trucks a day (checkin in central office using backend system)
 
 Funny: Betz was two or three times surprised about the applications behaviour
 
 Nice: handwritten like overlays to provide help within the application
+
+Design skillsets get more important

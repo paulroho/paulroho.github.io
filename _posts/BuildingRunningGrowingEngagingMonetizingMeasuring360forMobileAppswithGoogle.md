@@ -3,20 +3,24 @@ Keynote: Building, Running, Growing, Engaging, Monetizing, Measuring – 360° f
 by Jens Bussmann (Google)
 
 ---
-As a teaser, Bussmann showed the nowadays wide spread two images from pope elections. The first was taken in 2005 when there was just somewhere a little feature phone in the picture. The second one was taken in 2013, when there where mobile screens everywhere. ![What a difference 8 years makes (nbc news on instragram)](http://instagram.com/p/W2FCksR9-e/)
+The keynote startet off presenting two images showing the crowd in Rome from the time a pope was to be elected. The first one was taken in 2005. On this picture you could see just a single little feature phone. (Note: At that time, Smartphones as we know them today were not on the market). The second one was taken in 2013. On that picture, there are mobile screens just everywhere.
 
-He then proposed
+See the pictures here:
+![What a difference 8 years makes (nbc news on instragram)](http://instagram.com/p/W2FCksR9-e/)
 
-* Not only "Mobile-First", but "Mobile-only"
-* 2.5 Bill mobile users
-* Not only an application, but socially connected
-* Switching is easy - keep users engaged
+Then Bussmann stated:
 
-How to ensure to use *my* application
+* Not only "Mobile-First", but "Mobile-only". - *Personal side note: For some segments of the market that might even hold true as of today. But especially talking of best-ager consumers, I have the feeling that desktop computers still have a large share in their access to applications.* 
+* There are 2.5 Billion mobile users worldwide
+* Users do not only use an application, but they are socially connected
+* Switching to another application is easy for the user. So keep your users engaged. I have to ensure that users use *my* application.
 
-[Google's philosophy](http://www.google.com/about/company/philosophy/ "Google's philosophy"):
+The first statement from [Google's philosophy](http://www.google.com/about/company/philosophy/ "Google's philosophy") - "Ten things we know to be true":
 
-"1. Focus on the user and all else will follow"
+
+> Focus on the user and all else will follow
+
+The Bussmann showed 
 
 # 1. Build Your Game
 Google Cloud Platform
