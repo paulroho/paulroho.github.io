@@ -19,5 +19,72 @@ Server to be downloaded for each browser (except FireFox - in standard Selenium 
 Selendroid and iOS-Driver for the mobile browsers
 
 nuget Package for .NET:
+
     install-package Selenium.WebDriver
+
+    install-package Selenium.WebDriver.ChromeDriver
+
+    install-package Selenium.WebDriver.IEDriver
+
+Example:
+
+    [TestMethod]
+    public void BrowsingToPaulRoho()
+    {
+        using (var driver = new FirefoxDriver())
+        {
+            driver.Url = "http://paulroho.com";
+            driver.Title.Should().Contain("PaulRoho.com");
+        }
+    }
+
+
+#Remote web driver 
+
+    install-package Selenium.RC
+
+#Selenium Grid
+
+* Environment Management & Control
+* Scaling
+* Parallel execution of tests (eBay tests if sequentially executed would take 6 days to complete)
+* Reduction of execution times
+* Crossover tests (web, mobile)
+* Sits between my world (Dev, CI, ...) and machines with difference browsers (linux, windows, OSX, ...)
+* Nodes registers with selenium grid hub with capabilities (os version, browsers, versions)
+* Tests are sent to grid hub along with desired capabilities
+
+
+1. Startup the hub
+
+    java -jar selenium-server-standalone-2.41.0.jar -role hub
+
+[http://localhost:4444/grid/console](http://localhost:4444/grid/console)
+
+    java -jar selenium-server-standalone-2.41.0.jar -role wd -hub http://localhost:4444/grid/register
+
+
+#Reporting
+
+    reporter.log("This is additional info");
+
+#Mobile Automation Requirements
+* Reuse of the existing Selenium infrastructure for the web
+* Implementation of the Selnium protocol
+* The application under test should not need to be modified
+* Support for emulators/simulators as well as real deveices
+* Parallel execution of tests in a Selenium Grid
+* Management of multiple applications, versions, language
+* Support for runtime instpection for the app
+* Hybrid app support
+* No jailbreaking of device required
+
+* [http://ios-driver.github.io/ios-driver/](http://ios-driver.github.io/ios-driver/)
+* [http://selendroid.io/](http://selendroid.io/)
+
+Setup for selendroid:
+
+    DesiredCapabilitis.android()
+    capability.setCapability(SelendroidCapabilities.EMULATOR,true);
+    ...
 
