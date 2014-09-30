@@ -42,4 +42,9 @@ WANem - simulate network behavior for mobile testing
 * Update handling
 
 ##Pros
-* 
+* Cheap
+* Flexible
+* Accurate
+* Accessible
+* Configurable
+
