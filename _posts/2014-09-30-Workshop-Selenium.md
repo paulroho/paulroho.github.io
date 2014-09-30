@@ -29,7 +29,7 @@ nuget Package for .NET:
 Example:
 
     [TestMethod]
-    public void BrowsingToPaulRoho()
+    public void BrowsingWithLocalDriver()
     {
         using (var driver = new FirefoxDriver())
         {
@@ -54,14 +54,29 @@ Example:
 * Nodes registers with selenium grid hub with capabilities (os version, browsers, versions)
 * Tests are sent to grid hub along with desired capabilities
 
+-
 
-1. Startup the hub
+1. Download the Selenium server from [Selenium Download Page](http://www.seleniumhq.org/download/).
+2. Startup the hub
 
     java -jar selenium-server-standalone-2.41.0.jar -role hub
 
 [http://localhost:4444/grid/console](http://localhost:4444/grid/console)
 
     java -jar selenium-server-standalone-2.41.0.jar -role wd -hub http://localhost:4444/grid/register
+
+Now the grid can be targeted by using the RemoteWebDriver:
+
+    [TestMethod]
+    public void BrowsingUsingSeleniumGrid()
+    {
+        var capability = DesiredCapabilities.Firefox();
+        using (var driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), capability))
+        {
+            driver.Url = "http://paulroho.com";
+            driver.Title.Should().Contain("PaulRoho.com");
+        }
+    }
 
 
 #Reporting
@@ -88,3 +103,6 @@ Setup for selendroid:
     capability.setCapability(SelendroidCapabilities.EMULATOR,true);
     ...
 
+Possible to define the desired locale in the capabilities
+
+Possible to inspect the native app's Dom.
