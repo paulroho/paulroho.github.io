@@ -1,4 +1,4 @@
-Keynote: Effective QA – Is It Really Necessary?
+MAE2014 Day 1 - Keynote: Effective QA – Is It Really Necessary?
 ===
 by Martin Wrigley
 

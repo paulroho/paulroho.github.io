@@ -1,4 +1,4 @@
-Mobile Web Apps and Hybrid Apps – from Zero to Hero
+MAE2014 Day 1 - Mobile Web Apps and Hybrid Apps – from Zero to Hero
 ===
 by Martin Naumann
 
@@ -35,3 +35,6 @@ c) Click "Ready to build"
 
 In Google Chrome: chrome://inspect, choose device
 Changes in the code (e.g. Dom Inspector - immediately reflects on phone)
+
+Alternative for jQuery on mobiles: [jqlite](https://code.google.com/p/jqlite/ "jqlite")
+

@@ -1,4 +1,4 @@
-KeyNote: 10 Ingredients to Rock the App Store with Your App
+MAE2014 Day 1 - KeyNote: 10 Ingredients to Rock the App Store with Your App
 ===
 by Christian Kaar (Runtastic) 
 
