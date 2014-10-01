@@ -23,6 +23,7 @@ Supercell Growth
 
 Build-Grow-Monetize
 
+#Parse
 [https://parse.com/](https://parse.com/)
 
 * Parse Core
@@ -47,3 +48,4 @@ Facebook has the demographics, they know who you are, if you have the Facebook a
 
 Facebook Audience Network ("Install now" buttons in Apps)
 
+Facebook Service: give Facebook emails, they match it with similar interest people and retarget it.

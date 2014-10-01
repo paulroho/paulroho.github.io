@@ -1,7 +1,8 @@
 So Easy a Child Could Do It: Designing Mobile Apps for Kids
 ===
 by Kathryn Rotondo 
-
+motherboardpodcast.com
+@krotondo
 ---
 
 Consider physical abilities of children of various ages.
