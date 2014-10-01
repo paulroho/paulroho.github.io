@@ -29,6 +29,8 @@ Shield us from negative feedback
 Cognition - information processing we monitor it -> metacognition - can control cognition
 metcognition: how do we think how good we are
 
+People don't see their cognitive inabilities, they ned feedback
+
 Metacognitive Training: align metacognition and cognition
 
 PIMP 
@@ -37,5 +39,4 @@ PIMP
 * and
 * Proposal - inform me when you checkin code
 
-
-
+@agilebean
