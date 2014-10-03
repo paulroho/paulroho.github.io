@@ -146,11 +146,11 @@ We can do this using a `Func` parameter. This parameter has to repeat the signat
 
 If we want to pass a delegate like this around, the delegate has to be of the following type:
     
-    Func<IEnumerable<T>>, Func<T, bool>, T>
+    Func<IEnumerable<T>, Func<T, bool>, T>
 
 For those not yet familiar with the `Func`-syntax, this denotes a delegate with two input parameters and a return value:
 
-1. `IEnumerable<T>>`: A enumerable sequence of some type
+1. `IEnumerable<T>`: A enumerable sequence of some type
 2. `Func<T, bool>`: A predicate. That is a function that takes an object and returns a Boolean
 
 The last type parameter `T` defines the return value of the delegate being of the same type as the elements in the sequence of the first parameter.
