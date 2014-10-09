@@ -63,6 +63,12 @@
 	  {{ content }}
     </div>
 
+	<ul>
+	{% for cat in page.categories %}
+		<li>{{ cat.name }}</li> 
+	{% endfor %}
+	</ul>
+	
 	{% assign cat = page.category %}
 	<div class="category-archive">
 	  <div>
