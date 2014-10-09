@@ -62,35 +62,18 @@
 			</div>
 	  {{ content }}
 
-		<div>
-		{% for cat in page.categories %}
-			<span>{{ cat }}</span>
-			{% unless forloop.last %} | {% endunless %}
-		{% endfor %}
-		</div>
-		
-		<div>
+		<div class="tags">
+		Filed under 
 		{% for tag in page.tags %}
 			<span>{{ tag }}</span>
 			{% unless forloop.last %} | {% endunless %}
 		{% endfor %}
 		</div>
+		<p>site.tags: {% site.tags %}</p>
+		{% for tag in site.tags %}
+			{{ tag }} - 
+		{% endfor %}
     </div>
-	
-	{% assign cat = page.category %}
-	<div class="category-archive">
-	  <div>
-		<span class="title">Category archive for {{ cat }}</span>
-	  </div>
-	  <div>
-		{{ cat }}
-		<ul class="posts">
-		  {% for post in site.categories[cat] %}
-		  <li><span>{{ post.date | date_to_string }} - </span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		  {% endfor %}
-		</ul>
-	  </div>
-	</div>
 
 	<div id="footer">
       <div class="container">

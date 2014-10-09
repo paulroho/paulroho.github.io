@@ -1,8 +1,7 @@
 ---
 layout: blogdraft
 title: Parsing Text With Peg.js
-categories: programming javascript parsing opensource
-tags: tprogramming tjavascript tparsing topensource
+tags: programming javascript parsing opensource
 ---
 
 # Parsing Text With Peg.js
