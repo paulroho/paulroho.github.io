@@ -61,9 +61,14 @@ h1 {
 	margin-bottom:1em;
 }
 
-h2, h3 {
-	margin-top:2em;
-	margin-bottom:1em;
+h2 {
+	margin-top:1.6em;
+	margin-bottom:.8em;
+}
+
+h3 {
+	margin-top:1.2em;
+	margin-bottom:.6em;
 }
 
 #footer > .container {
