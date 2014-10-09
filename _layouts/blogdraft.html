@@ -65,22 +65,10 @@
 		<div class="tags">
 		Filed under 
 		{% for tag in page.tags %}
-			<span>{{ tag }}</span>
+			<span><a href="/blog/tags/#{{ tag }}">{{ tag }}</a></span>
 			{% unless forloop.last %} | {% endunless %}
 		{% endfor %}
 		</div>
-		<h2>site.tags</h2>
-		{% for tag in site.tags %}
-			<h3>{{ tag[0] }}</h3>
-			<p>Posts:</p>
-			<ul>
-			{% for post in tag[1] %}
-				<li>
-				  <a href="{{ post.url }}">{{ post.title }}</a>
-				</li>
-			{% endfor %}
-			</ul>
-		{% endfor %}
     </div>
 
 	<div id="footer">
