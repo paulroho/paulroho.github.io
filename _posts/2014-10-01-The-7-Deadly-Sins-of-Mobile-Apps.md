@@ -1,6 +1,6 @@
 ---
 layout: blogdraft
-title: The Seven Deadly Sins of Mobile Apps
+title: The 7 Deadly Sins of Mobile Apps
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---
 
