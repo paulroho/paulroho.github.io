@@ -5,10 +5,10 @@ layout: blog
 {% for tag in site.tags %}
 	<h2><a name="{{ tag[0] }}"></a>Posts with Tag <em>{{ tag[0] }}</em></h2>
 	<ul>
-	{% has_public_posts = false %}
+	{% assign has_public_posts = false %}
 	{% for post in tag[1] %}
 		{% unless post.layout == 'blogdraft' %}
-			{% has_public_posts = true %}
+			{% assign has_public_posts = true %}
 			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 		{% endunless %}
 	{% endfor %}
