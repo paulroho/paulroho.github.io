@@ -1,10 +1,20 @@
-MAE2013, Day 2 - Keynote: Responsive Game Design
+---
+layout: blogdraft
+title: Responsive Game Design (Jesse Freeman)
+tags: [Mobile App Europe 2014, Mobile Apps]
+---
+
+Mobile App Europe 2014 Notes
+
+Keynote: Responsive Game Design
 ===
-by Jesse Freeman
+Notes on a [session](http://mobileappeurope.com/talks/responsive-game-design/ "")
+by Jesse Freeman (Amazon Apps & Games)
+at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
-#Why Make One Game a Month?
+##Why Make One Game a Month?
 1. Quickly explorer and prototype ideas
 2. Focus on only the core game mechanics
 3. Learn to work under pressure
@@ -32,14 +42,14 @@ Classical responsive design does not work especially well for games
 * Publish to multiple platforms with the same codebase
 * Saved data is synced across all platforms
 
-#Game Graphics and UI
+##Game Graphics and UI
 * Mobile first
 * Handling different resolutions -> understand aspect ratios 16:9 and 4:3
 * Scale up/down from there
 
-#Input
+##Input
 
 Virtual Joystick
 
-#Single Code Base
+##Single Code Base
 
