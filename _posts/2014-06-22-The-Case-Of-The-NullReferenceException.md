@@ -1,6 +1,7 @@
 ---
 layout: blogdraft
 title: The Case Of The NullReferenceException
+categories: programming
 ---
 
 
