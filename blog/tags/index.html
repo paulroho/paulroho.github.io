@@ -3,7 +3,7 @@ layout: blog
 ---
 <h1>Posts by Tag</h1>
 {% for tag in site.tags %}
-	<h2><a href="{{ tag[0] }}"></a>{{ tag[0] }}</h2>
+	<h2><a name="{{ tag[0] }}"></a>{{ tag[0] }}</h2>
 	<ul>
 	{% for post in tag[1] %}
 		{% unless post.layout == 'blogdraft' %}
