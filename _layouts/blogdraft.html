@@ -63,15 +63,9 @@
 	  {{ content }}
 
 		<div class="tags">
-		page.tags: {{ page.tags }}<br/>
-		page.tags == null: {{ page.tags == null }}<br/>
-		page.tags.size: {{ page.tags.size }}<br/>
-		page.tags.size == 0:{{ page.tags.size == 0 }} 2nd: {% if page.tags.size == 0%}gleich 0{% endif %}<br/>
-		page.tags.size > 0:{{ page.tags.size > 0 }} 2nd: {% if page.tags.size > 0 %}groehsa{% endif %}<br/>
-		page.tags == empty: {{ page.tags == empty }} 2nd: {% if page.tags == empty %}lea{% endif %}<br/>
-		{% unless page.tags.size == 0 %}
+		{% if page.tags.size > 0 %}
 		Filed under 
-		{% endunless %}
+		{% endif %}
 		{% for tag in page.tags %}
 			<span><a href="/blog/tags/#{{ tag }}">{{ tag }}</a></span>
 			{% unless forloop.last %} | {% endunless %}
