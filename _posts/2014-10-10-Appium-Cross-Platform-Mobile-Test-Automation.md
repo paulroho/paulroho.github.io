@@ -1,6 +1,14 @@
+---
+layout: blogdraft
+title: Appium: Cross-Platform Mobile Test Automation for the Masses
+tags: [Mobile App Europe 2014, Testing, Test Automation, Mobile, Cross-Platform]
+---
+
 MAE2014, Day 3 - Appium: Cross-Platform Mobile Test Automation for the Masses
 ===
 by Andreas Lüdeke (TestObject) 
+
+[http://mobileappeurope.com/talks/appium-cross-platform-mobile-test-automation-masses/](http://mobileappeurope.com/talks/appium-cross-platform-mobile-test-automation-masses/)
 
 ---
 # Appium Concepts
