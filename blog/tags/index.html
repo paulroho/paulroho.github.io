@@ -4,10 +4,9 @@ title: Posts by Tag
 ---
 <h1>Posts by Tag</h1>
 {% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag[0] }}|
-  {% endfor %}
+  {% for tag in site.tags %}{{ tag[0] }}|{% endfor %}
 {% endcapture %}
+<p>{{ tags }}</p>
 {% assign sortedtags = tags | split:'|' | sort %}
 
 {% for tag in sortedtags %}
