@@ -69,10 +69,11 @@
 			{% unless forloop.last %} | {% endunless %}
 		{% endfor %}
 		</div>
-		<p>site.tags: {% site.tags %}</p>
-		{% for tag in site.tags %}
-			{{ tag }} - 
-		{% endfor %}
+		<p>site.tags: 
+			{% for tag in site.tags %}
+				{{ tag }} - 
+			{% endfor %}
+		</p>
     </div>
 
 	<div id="footer">
