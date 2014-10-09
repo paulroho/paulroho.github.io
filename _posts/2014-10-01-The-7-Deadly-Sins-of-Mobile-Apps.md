@@ -40,10 +40,11 @@ App leaves you feeling unfulfilled and wanting more
 * Testers: test for reliability and usability
 
 ##Sin 2: Gluttony
-* App uses far too many device resources
-    * Doesn't fit well on smaller screens
-    * Your device slows down and heats up
-    * Your battery goes dead quickly
+App uses far too many device resources
+
+* Doesn't fit well on smaller screens
+* Your device slows down and heats up
+* Your battery goes dead quickly
 
 ###Gluttony Remedies
 * Designers: design for smaller screens follow guidelines
@@ -51,10 +52,11 @@ App leaves you feeling unfulfilled and wanting more
 * Testers: find out the scenarios are really used
 
 ##Sin 3: Greed
-* App uses as much of your network resources as possible
-    * App is slow and unreliable on mobile networks
-    * App crashes when changes network types
-    * App is inoperable when network connections aren't ideal or unavailable
+App uses as much of your network resources as possible
+
+* App is slow and unreliable on mobile networks
+* App crashes when changes network types
+* App is inoperable when network connections aren't ideal or unavailable
 
 ###Greed Remedies
 * Designers: design with network error handling in mind, assume weak or lost connections  
@@ -62,10 +64,11 @@ App leaves you feeling unfulfilled and wanting more
 * Testers: test transitions between network types and connection loss: WIFI, cellular, etc.
 
 ##Sin 4: Sloth
-* The app takes too long to do anything useful
-    * It is slow to launch and slow to respond to gestures and inputs
-    * It gets in the way of problem solving particularly in high stress situations
-    * It causes you to feel frustrated. This app is wasting previous time.
+The app takes too long to do anything useful
+
+* It is slow to launch and slow to respond to gestures and inputs
+* It gets in the way of problem solving particularly in high stress situations
+* It causes you to feel frustrated. This app is wasting previous time.
 
 ###Sloth Remedies
 * Designers: Remember that devices that have limited power and resources so don't get carried away with features - Use minimalist design start simple, remove, remove, remove!   
@@ -74,6 +77,7 @@ App leaves you feeling unfulfilled and wanting more
 
 ##Sin 5: Wrath
 App doesn't play well with others
+
 * Application settings override device defaults and causes unexpected behavior
 * Overrides other app settings, causing them to malfunction
 * App demands focus, no matter what you are doing
@@ -85,6 +89,7 @@ App doesn't play well with others
 
 ##Sin 6: Envy
 The app is a copycat. Users would prefer to use existing apps instead.
+
 * It is too similar to other apps , and gets rejected from application stores.
 * After the researching and installing the app, it is too similar to others I already use, so I delete it.
 * I can't find your app in a sea of similar go to a competitor
@@ -96,6 +101,7 @@ The app is a copycat. Users would prefer to use existing apps instead.
 
 ##Sin 7: Pride
 The app is difficult to users and expectes users to adapt to it.
+
 * People get frustrated while trying to complete simple tasks
 * The app requires too many inputs and gestures to get anything done
 * People are subjected to pain - eye strain the fingers
@@ -109,11 +115,13 @@ If mom doesn't care, no one will
 
 ##Don't tempt others
 Keep personal data private and secure
+
 * Designers: model designs to prevent privacy breaches
 * Developers: use secure protocols and storage tools
 * Testers: ensure data is private - use testing and any security tools you can leverage
 
 ##Repent of Your Sins!
 Alternatively:
+
 * Exploit human weaknesses in your app to create positive experiences.
 * Give users what they want and need 
