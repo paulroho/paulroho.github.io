@@ -3,14 +3,12 @@ layout: blog
 title: Posts by Tag
 ---
 <h1>Posts by Tag</h1>
-/* {% capture tags %}
+{% capture tags %}
   {% for tag in site.tags %}
     {{ tag[0] }}|
   {% endfor %}
 {% endcapture %}
 {% assign sortedtags = tags | split:'|' | sort %}
-*/
-{% assign sortedtags = site.tags | sort:0 %}
 
 {% for tag in sortedtags %}
 	<a name="{{ tag }}"></a>
