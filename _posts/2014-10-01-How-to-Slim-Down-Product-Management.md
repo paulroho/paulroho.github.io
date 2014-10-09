@@ -5,6 +5,7 @@ tags: [Mobile App Europe 2014, Mobile Apps]
 ---
 
 Mobile App Europe 2014 Notes
+
 How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone
 ===
 by Marc C. Lange (Crowdflow) 
