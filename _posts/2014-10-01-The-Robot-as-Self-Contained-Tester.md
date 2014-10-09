@@ -1,7 +1,7 @@
 ---
 layout: blogdraft
 title: Automated Test of a Smartphone NFC Payment Solution
-tags: [Mobile App Europe 2014, Robotics, Test Automation, NFC, Smartphone]
+tags: [Mobile App Europe 2014, Mobile Apps, Robotics, Test Automation, NFC, Smartphone]
 ---
 
 Mobile App Europe 2014 Notes
