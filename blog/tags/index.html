@@ -12,7 +12,7 @@ title: Posts by Tag
 
 {% for tag in sortedtags %}
 	<a name="{{ tag }}"></a>
-	<h2>Posts with Tag <em>{{ tag[0] }}</em></h2>
+	<h2>Posts with Tag <em>{{ tag }}</em></h2>
 	<ul>
 	{% assign has_public_posts = false %}
 	{% for post in site.tags[tag] %}
@@ -22,7 +22,7 @@ title: Posts by Tag
 		{% endunless %}
 	{% endfor %}
 	{% unless has_public_posts %}
-	<p>So far there are no published posts with the tag <em>{{ tag[0] }}</em>.</p>
+	<p>So far there are no published posts with the tag <em>{{ tag }}</em>.</p>
 	{% endunless %}
 	</ul>
 {% endfor %}
