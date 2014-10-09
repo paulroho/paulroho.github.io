@@ -1,6 +1,16 @@
-MAE2013, Day2 - Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure (Part 1) 
+---
+layout: blogdraft
+title: Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure (Michael Palotas)
+tags: [Mobile App Europe 2014, Mobile Apps]
+---
+
+Mobile App Europe 2014 Notes
+
+Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure
 ===
-by Michael Palotas
+Notes on a [session](http://mobileappeurope.com/talks/selenium-selendroid-and-ios-driver-mobile-and-web-automation-using-one-api-and-one-infrastructure/ "Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure")
+by Michael Palotas (Gridfusion, eBay)
+at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 End-to-end-test over different devices (desktop - mobile - tablet)
@@ -10,7 +20,7 @@ Selenium webdriver is becoming a W3C standard -> Every browser will support Sele
 
 Selenium Grid - scale tests to several nodes (different OS/browser) 
 
-#Webdriver Protocol
+##Webdriver Protocol
 AKA "JSON wire protocol"
 Client with bindings to several languages (C#, Java, Ruby, Python, ...)
 JSON Wire Protocol
@@ -21,9 +31,7 @@ Selendroid and iOS-Driver for the mobile browsers
 nuget Package for .NET:
 
     install-package Selenium.WebDriver
-
     install-package Selenium.WebDriver.ChromeDriver
-
     install-package Selenium.WebDriver.IEDriver
 
 Example:
@@ -39,12 +47,11 @@ Example:
     }
 
 
-#Remote web driver 
+##Remote web driver 
 
     install-package Selenium.RC
 
-#Selenium Grid
-
+##Selenium Grid
 * Environment Management & Control
 * Scaling
 * Parallel execution of tests (eBay tests if sequentially executed would take 6 days to complete)
@@ -79,11 +86,11 @@ Now the grid can be targeted by using the RemoteWebDriver:
     }
 
 
-#Reporting
+##Reporting
 
     reporter.log("This is additional info");
 
-#Mobile Automation Requirements
+##Mobile Automation Requirements
 * Reuse of the existing Selenium infrastructure for the web
 * Implementation of the Selnium protocol
 * The application under test should not need to be modified
@@ -97,7 +104,7 @@ Now the grid can be targeted by using the RemoteWebDriver:
 * [http://ios-driver.github.io/ios-driver/](http://ios-driver.github.io/ios-driver/)
 * [http://selendroid.io/](http://selendroid.io/)
 
-Setup for selendroid:
+##Setup for selendroid:
 
     DesiredCapabilitis.android()
     capability.setCapability(SelendroidCapabilities.EMULATOR,true);
