@@ -56,7 +56,9 @@
 	  {{ content }}
 
 		<div class="tags">
+		{% unless page.tags.size == 0 %}
 		Filed under 
+		{% endunless %}
 		{% for tag in page.tags %}
 			<span><a href="/blog/tags/#{{ tag }}">{{ tag }}</a></span>
 			{% unless forloop.last %} | {% endunless %}

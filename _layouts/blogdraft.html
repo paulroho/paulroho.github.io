@@ -63,7 +63,11 @@
 	  {{ content }}
 
 		<div class="tags">
+		page.tags.size: {{ page.tags.size }}<br/>
+		page.tags.size == 0:{{ page.tags.size == 0 }}
+		{% unless page.tags.size == 0 %}
 		Filed under 
+		{% endunless %}
 		{% for tag in page.tags %}
 			<span><a href="/blog/tags/#{{ tag }}">{{ tag }}</a></span>
 			{% unless forloop.last %} | {% endunless %}
