@@ -67,7 +67,7 @@
 		Filed under 
 		{% endif %}
 		{% for tag in page.tags %}
-			<span><a href="/blog/tags/#{{ tag }}">{{ tag }}</a></span>
+			<span><a href="/blog/tags/#{{ tag | replace:' ','_' }}">{{ tag }}</a></span>
 			{% unless forloop.last %} | {% endunless %}
 		{% endfor %}
 		</div>
