@@ -11,7 +11,7 @@ title: Posts by Tag
 {% assign sortedtags = tags | split:'|' | sort %}
 
 {% for tag in sortedtags %}
-	<a name="{{ tag | replace:' ','_' }}"></a>
+	<a name="_{{ tag }}_"></a>
 	<h2>Posts with Tag <em>{{ tag }}</em></h2>
 	<ul>
 	{% assign has_public_posts = false %}
