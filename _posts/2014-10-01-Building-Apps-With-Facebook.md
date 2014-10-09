@@ -1,29 +1,38 @@
-MAE2013, Day 3 - Building Apps with Facebook
+---
+layout: blogdraft
+title: Building Apps with Facebook (Julien Lesaicherre)
+tags: [Mobile App Europe 2014, Mobile Apps]
+---
+
+Mobile App Europe 2014 Notes
+
+Building Apps with Facebook
 ===
+Notes on a [session](http://mobileappeurope.com/talks/building-apps-facebook/ "Building Apps with Facebook")
 by Julien Lesaicherre (Facebook)
+at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
 Mobile has overtaken desktop
+* "Web is dead" (book of 2010)
+* 86% spent on mobile is on apps
 
-"Web is dead" (book of 2010)
-86% spent on mobile is on apps
+> Our biggest mistake was betting too much on HTML5 (Zuckerberg 2012)
 
-Our biggest mistake was betting too much on HTML5 (Zuckerberg 2012)
-
-1B+ mobile users (1.3B user total)
-Q2/2012: no mobile revenue
-Q4/2014: 60%+
+Facebook
+* 1B+ mobile users (1.3B user total)
+* Q2/2012: no mobile revenue
+* Q4/2014: 60%+
 
 Supercell Growth
-
 * 06/2012
 * 08/2012 500k$
 * Today 6M$
 
 Build-Grow-Monetize
 
-#Parse
+##Parse
 [https://parse.com/](https://parse.com/)
 
 * Parse Core
@@ -40,7 +49,7 @@ Anonymous login with facebook - Facebook provides a stable id, but no connection
 
 People are using 27 apps 
 
-If your referelals from Facebook are below 25% you are doing something wrong
+> "If your referelals from Facebook are below 25% you are doing something wrong."
 
 Applinks (Mobile deeplinks) 3B+
 
@@ -49,3 +58,5 @@ Facebook has the demographics, they know who you are, if you have the Facebook a
 Facebook Audience Network ("Install now" buttons in Apps)
 
 Facebook Service: give Facebook emails, they match it with similar interest people and retarget it.
+
+... and so much more ... (scary!)
