@@ -1,9 +1,18 @@
 ---
 layout: blog
+title: Posts by Tag
 ---
 <h1>Posts by Tag</h1>
-{% for tag in site.tags %}
-	<h2><a name="{{ tag[0] }}"></a>Posts with Tag <em>{{ tag[0] }}</em></h2>
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+
+{% for tag in sortedtags %}
+	<a name="{{ tag[0] }}"></a>
+	<h2>Posts with Tag <em>{{ tag[0] }}</em></h2>
 	<ul>
 	{% assign has_public_posts = false %}
 	{% for post in tag[1] %}
@@ -13,7 +22,7 @@ layout: blog
 		{% endunless %}
 	{% endfor %}
 	{% unless has_public_posts %}
-	<p>So far there are no published posts with the tag {{ tag[0] }}.</p>
+	<p>So far there are no published posts with the tag <em>{{ tag[0] }}</em>.</p>
 	{% endunless %}
 	</ul>
 {% endfor %}
