@@ -61,13 +61,14 @@
 					</div>
 			</div>
 	  {{ content }}
-    </div>
 
-	<ul>
-	{% for cat in page.categories %}
-		<li>{{ cat }}</li> 
-	{% endfor %}
-	</ul>
+		<div>
+		{% for cat in page.categories %}
+			<span>{{ cat }}</span>
+			{% unless forloop.last %} | {% endunless %}
+		{% endfor %}
+		</div>
+    </div>
 	
 	{% assign cat = page.category %}
 	<div class="category-archive">
