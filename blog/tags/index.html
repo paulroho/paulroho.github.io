@@ -3,12 +3,13 @@ layout: blog
 title: Posts by Tag
 ---
 <h1>Posts by Tag</h1>
+/* It is important to keep all this without separating whitespace */
 {% capture tags %}{% for tag in site.tags %}{{ tag[0] }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
 <p>{{ tags }}</p>
 {% assign sortedtags = tags | split:'|' | sort %}
 
 {% for tag in sortedtags %}
-	<a name="_{{ tag }}_"></a>
+	<a name="{{ tag | replace:' ','_' }}"></a>
 	<h2>Posts with Tag <em>{{ tag }}</em></h2>
 	<ul>
 	{% assign has_public_posts = false %}
