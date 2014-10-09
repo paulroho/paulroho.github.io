@@ -1,6 +1,6 @@
 ---
 layout: blogdraft
-title: The 7 Deadly Sins of Mobile Apps
+title: The 7 Deadly Sins of Mobile Apps (Jonathan Kohl)
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---
 

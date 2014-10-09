@@ -1,6 +1,6 @@
 ---
 layout: blogdraft
-title: Offline Architectures for Mobile Apps
+title: Offline Architectures for Mobile Apps (Christian Poecher)
 tags: [Mobile App Europe 2014, Mobile Apps, Offline, Architecture]
 ---
 

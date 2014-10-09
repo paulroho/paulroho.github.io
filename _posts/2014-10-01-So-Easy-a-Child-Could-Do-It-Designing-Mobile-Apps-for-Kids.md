@@ -1,6 +1,6 @@
 ---
 layout: blogdraft
-title: So Easy a Child Could Do It: Designing Mobile Apps for Kids
+title: So Easy a Child Could Do It: Designing Mobile Apps for Kids (Kathryn Rotondo)
 tags: [Mobile App Europe 2014, Mobile Apps, Children, Design, Usability, UX]
 ---
 

@@ -1,4 +1,11 @@
-MAE2014, Day 3 - How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone
+---
+layout: blogdraft
+title: How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone (Marc C. Lange)
+tags: [Mobile App Europe 2014, Mobile Apps]
+---
+
+Mobile App Europe 2014 Notes
+How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone
 ===
 by Marc C. Lange (Crowdflow) 
 
@@ -16,12 +23,13 @@ POP - Paper on Phone (clickable prototype)
 The non-technical side of customer development - getting into character
 
 Method acting
-Impersonating the user (work, life with/like them)
-Embodimient: What might I, the user do?
+* Impersonating the user (work, life with/like them)
+* Embodimient: What might I, the user do?
 
-Compared to your user, you know nothiing about your user - Don't ask them if they like your product - "This is so bad, I have no words for it"
+Compared to your user, you know nothing about your user - Don't ask them if they like your product
+> "This is so bad, I have no words for it"
 
-#Tools
+##Tools
 * Qualitative research with 8-12 users
 * Extract what they NEED vs. want
 * Care about N00bs - might use a workaround that you could make a feature
@@ -43,7 +51,7 @@ Compared to your user, you know nothiing about your user - Don't ask them if the
 
 GET OUT THERE AND GET INTO CHARACTER
 
-Questions:
+##Questions asked while Q&A:
 
 * How in corporate environments - Stretch the first stage (method acting)
 * Quantitative vs. qualitative research - Qualitative research: what will be the next big thing? the next step?, Quantitative research: what did work and what not
