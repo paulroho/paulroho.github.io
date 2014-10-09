@@ -54,7 +54,17 @@
 
     <div class="container">
 	  {{ content }}
-    </div> <!-- /container -->
+
+		<div class="tags">
+		{% if page.tags.size > 0 %}
+		Filed under 
+		{% endif %}
+		{% for tag in page.tags %}
+			<span><a href="/blog/tags/#{{ tag }}">{{ tag }}</a></span>
+			{% unless forloop.last %} | {% endunless %}
+		{% endfor %}
+		</div>
+    </div>
 
 	<div id="footer">
       <div class="container">

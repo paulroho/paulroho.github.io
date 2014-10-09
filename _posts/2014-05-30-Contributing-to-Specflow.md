@@ -1,6 +1,7 @@
 ---
 layout: blogdraft
 title: Contributing to SpecFlow
+tags: programming bdd specflow .net github opensource
 ---
 
 
