@@ -14,10 +14,12 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
-César showed off the architecture of the [Wunderlist App for Android](https://play.google.com/store/apps/details?id=com.wunderkinder.wunderlistandroid "Wunderlist App in the Google Play Store") for [Wunderlist](https://www.wunderlist.com/). While some amount was standard ingredients, there were some interesting aspects:
+César showed off the architecture of the [Wunderlist App for Android](https://play.google.com/store/apps/details?id=com.wunderkinder.wunderlistandroid "Wunderlist App in the Google Play Store") for [Wunderlist](https://www.wunderlist.com/). 
+
+While some amount was standard ingredients, there were some interesting aspects:
 
 ## API
-* Websocket - support for instant notifications
+* Websocket - main way of communication (support for instant notifications)
 * REST - mainly as fallback for Websockets
 
 ## Android Layer
