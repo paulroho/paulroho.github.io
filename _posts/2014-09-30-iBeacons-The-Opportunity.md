@@ -1,6 +1,6 @@
 ---
 layout: blogdraft
-title: iBeacons: The Opportunity (Mark Mason)
+title: iBeacons - The Opportunity (Mark Mason)
 tags: [Mobile App Europe 2014, Mobile Apps, Internet Of Things, iBeacons]
 ---
 
