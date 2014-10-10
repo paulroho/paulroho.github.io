@@ -13,7 +13,8 @@ by [Melinda Albert](www.melinde-albert.de "Melinda Albert")
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
-## Thumb size:
+
+## Thumb size
 * Height of buttons, input fields, icons
 	* iOS 44pt
 	* iOS: 48pt (min 32pt)
