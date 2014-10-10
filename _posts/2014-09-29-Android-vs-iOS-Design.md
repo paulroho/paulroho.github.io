@@ -13,17 +13,17 @@ by [Melinda Albert](www.melinde-albert.de "Melinda Albert")
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
-Thumb size: - Height of buttons, input fields, icons
+##Thumb size: - Height of buttons, input fields, icons
 * iOS 44pt
 * iOS: 48pt (min 32pt)
 
 6 User Interface Differences between Android and iOS apps
 
 ## Navigation Bar
-### iOS Navigation Bar
-Back button - screen title - text titled control or max 2 icons
-### Android App Bar
-Nav icon - screen title (not centered) - action icons - menu icon
+* iOS Navigation Bar
+	Back button - screen title - text titled control or max 2 icons
+* Android App Bar
+	Nav icon - screen title (not centered) - action icons - menu icon
 
 * Ad Menu icon:
 menu items to the current screen, not for navigation
