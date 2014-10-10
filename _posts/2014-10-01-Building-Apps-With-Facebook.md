@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Building Apps with Facebook (Julien Lesaicherre)
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---
@@ -14,32 +14,31 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
-Mobile has overtaken desktop
-* "Web is dead" (book of 2010)
-* 86% spent on mobile is on apps
+* Mobile has overtaken desktop
+	* "Web is dead" (book of 2010)
+	* 86% spent on mobile is on apps
 
 > Our biggest mistake was betting too much on HTML5 (Zuckerberg 2012)
 
-Facebook
-* 1B+ mobile users (1.3B user total)
-* Q2/2012: no mobile revenue
-* Q4/2014: 60%+
+* Facebook
+	* 1B+ mobile users (1.3B user total)
+	* Q2/2012: no mobile revenue
+	* Q4/2014: 60%+
 
-Supercell Growth
-* 06/2012
-* 08/2012 500k$
-* Today 6M$
+* Supercell Growth
+	* 06/2012
+	* 08/2012 500k$
+	* Today 6M$
 
-Build-Grow-Monetize
+Build - Grow - Monetize
 
-##Parse
-[https://parse.com/](https://parse.com/)
+##[Parse](https://parse.com/)
+* Parts
+	* Parse Core
+	* Parse Push
+	* Parse Analytics
 
-* Parse Core
-* Parse Push
-* Parse Analytics
-
-Yo is built on Parse (withing 8 hours)
+* [Yo](http://www.justyo.co/) is built on Parse (withing 8 hours)
 
 10B logins in 2013
 
