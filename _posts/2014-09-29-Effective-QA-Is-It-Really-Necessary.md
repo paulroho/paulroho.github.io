@@ -79,4 +79,4 @@ AUuA guide - the essentials of mobile testing
 * Choose your tools carefully, use the right tool for the right task
 * Have someone else do som testing
 
-[www.appqualityalliance.org](www.appqualityalliance.org "AQuA online") 
+[www.appqualityalliance.org](http://www.appqualityalliance.org "AQuA online") 
