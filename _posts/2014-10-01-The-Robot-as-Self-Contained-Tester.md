@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Automated Test of a Smartphone NFC Payment Solution (Boris Wrubel and Andreas Schwarz)
 tags: [Mobile App Europe 2014, Mobile Apps, Robotics, Test Automation, NFC, Smartphone]
 ---
@@ -15,11 +15,12 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 * [SquashTM](http://www.squashtest.org/) for test management
-* Project "BrikPi"
+* Project [BrickPi](https://www.kickstarter.com/projects/john-cole/brickpi-lego-bricks-with-a-raspberry-pi-brain)
     * Kickstarter project Add on for Raspberry Pi to attach Lego sensors and motors
-* Lego Mindstorm EV3
-* Project Arduberry
+* [Lego Mindstorm EV3](http://www.lego.com/en-us/mindstorms/products/ev3/31313-mindstorms-ev3/)
+* Project [Arduberry](https://www.dexterindustries.com/Arduberry/)
     * Arduino extension for Raspberry Pi
+	* Also on [Kickstarter](https://www.kickstarter.com/projects/john-cole/arduberry-unite-raspberry-pi-and-arduino)
 * Robot moves card to and from the mobile
 * No manual interaction needed
 
