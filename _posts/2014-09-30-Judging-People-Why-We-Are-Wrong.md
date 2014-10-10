@@ -1,11 +1,22 @@
-MAE2013, Day2 - Keynote: Judging People – Why We Are Wrong When We Think We Are Right
+---
+layout: blogdraft
+title: Judging People – Why We Are Wrong When We Think We Are Right (Dr. Chaehan So)
+tags: [Mobile App Europe 2014, Mobile Apps, Psychology]
+---
+
+Mobile App Europe 2014 Notes
+
+Keynote: Judging People – Why We Are Wrong When We Think We Are Right
 ===
-by Dr. Chaehan So
+Notes on a [session](http://mobileappeurope.com/talks/judging-people-wrong-think-right/ "Keynote: Judging People – Why We Are Wrong When We Think We Are Right")
+by [Dr. Chaehan So](http://twitter.com/agilebean/) (Axel Springer Ideas Engineering)
+at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
-Misconception: Psych derives trait from observing behaviour. Wrong: psyc research does the opposite: What is the probability for a behaviour given a trait.
+Misconception: Psychology derives trait from observing behaviour. - Wrong!
+Psychological research does the opposite: What is the probability for a behaviour given a trait?
 
-Psyc Effect size: difference/distance between averages
+Psychological Effect size: difference/distance between averages
 
 Why do we think that we are right? Because we want to be right. We're hard wired for that.
 
@@ -38,5 +49,3 @@ PIMP
 * IMpact - That broke the build
 * and
 * Proposal - inform me when you checkin code
-
-@agilebean
