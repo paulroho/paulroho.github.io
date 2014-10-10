@@ -42,6 +42,7 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ##Emulators and Simulators
 
 Unfortunately, the speakers could not provide any useful information about alternative emulators or how to speed up the slow emulator performance especially on Android. But they mentioned a tool to simulate real network traffic:
+
 * [WANem](http://wanem.sourceforge.net/) - simulate network behavior for mobile testing
 
 ###Cons
