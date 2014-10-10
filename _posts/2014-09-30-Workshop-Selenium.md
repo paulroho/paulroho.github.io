@@ -8,7 +8,7 @@ Mobile App Europe 2014 Notes
 
 Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure
 ===
-Notes on a [session](http://mobileappeurope.com/talks/selenium-selendroid-and-ios-driver-mobile-and-web-automation-using-one-api-and-one-infrastructure/ "Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure")
+Notes on a [workshop](http://mobileappeurope.com/talks/selenium-selendroid-and-ios-driver-mobile-and-web-automation-using-one-api-and-one-infrastructure/ "Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure")
 by Michael Palotas (Gridfusion, eBay)
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
