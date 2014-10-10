@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Effective QA – Is It Really Necessary (Martin Wrigley)
-tags: [Mobile App Europe 2014, Mobile Apps, Test Automation]
+tags: [Mobile App Europe 2014, Mobile Apps, Testing]
 ---
 
 Mobile App Europe 2014 Notes

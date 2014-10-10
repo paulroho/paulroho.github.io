@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Automated Test of a Smartphone NFC Payment Solution (Boris Wrubel and Andreas Schwarz)
-tags: [Mobile App Europe 2014, Mobile Apps, Robotics, Test Automation, NFC, Smartphone]
+tags: [Mobile App Europe 2014, Mobile Apps, Robotics, Testing, NFC, Smartphone]
 ---
 
 Mobile App Europe 2014 Notes
