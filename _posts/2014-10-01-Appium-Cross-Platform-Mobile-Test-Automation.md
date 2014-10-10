@@ -1,6 +1,6 @@
 ---
 layout: blogdraft
-title: Appium: Cross-Platform Mobile Test Automation for the Masses
+title: Appium Cross-Platform Mobile Test Automation for the Masses
 tags: [Mobile App Europe 2014, Testing, Test Automation, Mobile, Cross-Platform]
 ---
 
