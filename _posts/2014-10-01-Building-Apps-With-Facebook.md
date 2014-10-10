@@ -18,7 +18,7 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 	* "Web is dead" (book of 2010)
 	* 86% spent on mobile is on apps
 
-> Our biggest mistake was betting too much on HTML5 (Zuckerberg 2012)
+> "Our biggest mistake was betting too much on HTML5 (Zuckerberg 2012)"
 
 * Facebook
 	* 1B+ mobile users (1.3B user total)
@@ -33,7 +33,7 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 Build - Grow - Monetize
 
 ##[Parse](https://parse.com/)
-* Parts
+* Mobile App Platform
 	* Parse Core
 	* Parse Push
 	* Parse Analytics
