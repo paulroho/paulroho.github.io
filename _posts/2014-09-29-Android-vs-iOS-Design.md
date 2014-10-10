@@ -22,54 +22,54 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 6 User Interface Differences between Android and iOS apps
 
 ## Navigation Bar
-* iOS Navigation Bar
-	Back button - screen title - text titled control or max 2 icons
-* Android App Bar
-	Nav icon - screen title (not centered) - action icons - menu icon
-
-* Ad Menu icon:
-menu items to the current screen, not for navigation
-There is a table for device/orientation, number of icons
-max 5 icons: the icons not fitting go to the menu icon 
+* iOS: [Navigation Bar](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Bars.html#//apple_ref/doc/uid/TP40006556-CH12-SW3)
+	* Back button - screen title - text titled control or max 2 icons
+* Android: [Action Bar](http://developer.android.com/guide/topics/ui/actionbar.html)
+	* Nav icon - screen title (not centered) - action icons - menu icon
+	* Ad Menu icon:
+		* menu items to the current screen, not for navigation
+		* There is a table for device/orientation, number of icons
+		* max 5 icons: the icons not fitting go to the menu icon 
 
 ## Lists
 * iOS:
 	* Chevron
 	* subtitles go to the right
+	* no expand/collapse
 
 * Android Lists
 	* single-line, double-line, three line list
+	* List items can expand/collapse
 	* for more info per item: card
-	* List items can expand/collapse, not on iOS
 
 ## Tabbar
-* iOS
+* iOS: [Toolbar](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Bars.html#//apple_ref/doc/uid/TP40006556-CH12-SW4)
 	* No chevron (UX problem - coming back with material design)
 	* Always at the button (no interference with hardware controls)
 	* max 5 buttons, can have "More" button, but consider side bar navigation for more items
 	* icons, text below
 	* can slide, can be translucent
 
-* Android:
+* Android: [Tabs](http://developer.android.com/design/building-blocks/tabs.html)
 	* Always under the app bar
 	* max. 6 tabs
 	* just text, no icons
 
 ## Buttons
-* iOS
+* [iOS](https://developer.apple.com/library/iOS/documentation/userexperience/conceptual/UIKitUICatalog/UIButton.html)
 	* System buttons, looks just like a link
 	* Apple itself makes exceptions (e.g. AppStore)
-* Android
+* [Android](http://developer.android.com/guide/topics/ui/controls/button.html)
 	* Floating action button
 	* Rectangular Raised button
 	* Flat button, looks like link -> hint: better not use within screens
 
 ## Icons
-* iOS AppIcon
+* [iOS AppIcon](https://developer.apple.com/library/iOS/documentation/userexperience/conceptual/mobilehig/AppIcons.html)
 	* The business card of the application (bad example: associations that go in the web for the new icon for AirBnB)
 	* Always rounded rectangle (maybe form in it)
 
-* Android AppIcon
+* [Android AppIcon](http://developer.android.com/design/style/iconography.html)
 	* Any outline
 
 * AppIcon Do's
@@ -90,7 +90,7 @@ max 5 icons: the icons not fitting go to the menu icon
 * Android Icons
 
 ## Navigation
-* iOS Navigation
+* [iOS Navigation](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Navigation.html)
 	* Tree Structure
 	* Tabbar
 	* Deck of cards
@@ -99,7 +99,7 @@ max 5 icons: the icons not fitting go to the menu icon
 	* No Navigation
 	* Sidebar - not a native element of iOS
 
-* Android Navigation
+* [Android Navigation](https://developer.android.com/training/design-navigation/index.html)
 	* Sidebar (native in Android)
 	* Tabbar
 	* Stacked cards
