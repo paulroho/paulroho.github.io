@@ -30,7 +30,7 @@ Building a MobileWebApp with [ionic](http://ionicframework.com/) and [Apache Cor
 
 4. Seed a new ionic project
 
-        ionic start &lt;myProject&gt; tabs
+        ionic start <myProject> tabs
 
 5. Let ionic serve the project (from the projects folder)
 
