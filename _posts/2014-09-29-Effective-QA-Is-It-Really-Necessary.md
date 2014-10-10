@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Effective QA – Is It Really Necessary (Martin Wrigley)
 tags: [Mobile App Europe 2014, Mobile Apps, Test Automation]
 ---
@@ -18,7 +18,7 @@ QA and testing is all about Risk Management
 
 How much testing do you need to do?
 
-AQuA - App Quality Alliance
+**AQuA** - App Quality Alliance [http://www.appqualityalliance.org/](http://www.appqualityalliance.org/)
 
 ## Mobile App Testing
 * To prevent disappointing your customers
@@ -26,7 +26,7 @@ AQuA - App Quality Alliance
 * Safeguard brand
 * Cannot afford to not get it right
 
-AUuA guide - the essentials of mobile testing
+[AUuA guide](http://www.appqualityalliance.org/files/Essentials%20of%20Mobile%20App%20Testing_v1_April_2013.pdf) - the essentials of mobile testing
 
 * What do you consider?
 * What do you mean by testing?
@@ -50,7 +50,6 @@ AUuA guide - the essentials of mobile testing
 ##AQuA Testing Criteria
 * AQuA 
 
-
 ## Top 10 Errors
 * User interface inconsistency
 * Lack of clarity of graphics and text
@@ -65,7 +64,7 @@ AUuA guide - the essentials of mobile testing
 
 ##About AQuA
 * Best practices
-* AT&T ARO tool (open source)
+* [AT&T ARO tool](https://developer.att.com/application-resource-optimizer) (open source)
 * Online Testing Criteria Tool
 * The Quality App Directory
 
@@ -77,6 +76,6 @@ AUuA guide - the essentials of mobile testing
 ##Three Tips
 * Regression testing can and should be automated
 * Choose your tools carefully, use the right tool for the right task
-* Have someone else do som testing
+* Have someone else do some testing
 
 [www.appqualityalliance.org](http://www.appqualityalliance.org "AQuA online") 
