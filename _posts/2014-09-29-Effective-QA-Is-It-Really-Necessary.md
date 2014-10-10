@@ -1,6 +1,16 @@
-MAE2014 Day 1 - Keynote: Effective QA – Is It Really Necessary?
+---
+layout: blogdraft
+title: Keynote: Effective QA – Is It Really Necessary? (Martin Wrigley)
+tags: [Mobile App Europe 2014, Mobile Apps, Test Automation]
+---
+
+Mobile App Europe 2014 Notes
+
+Keynote: Effective QA – Is It Really Necessary?
 ===
-by Martin Wrigley
+Notes on a [keynote](http://mobileappeurope.com/talks/effective-qa-really-necessary/ "Keynote: Effective QA – Is It Really Necessary?")
+by Martin Wrigley (AQuA)
+at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
@@ -10,7 +20,7 @@ How much testing do you need to do?
 
 AQuA - App Quality Alliance
 
-# Mobile App Testing
+## Mobile App Testing
 * To prevent disappointing your customers
 * To manage risk of failure (if it does not make any difference - why write it at all?)
 * Safeguard brand
@@ -24,7 +34,7 @@ AUuA guide - the essentials of mobile testing
 * What tools do you use and why?
 * What to test? How much do you test?
 
-Critical Elements in the test plan
+##Critical Elements in the test plan
 * Unit testing
 * Functional testing
 * Non-functional testing
@@ -33,15 +43,15 @@ Critical Elements in the test plan
 * Compatibility testing
 * Independent testing (by test team)
 
-Plan your Testing
+##Plan your Testing
 * Look at your product and your users to build a plan
 * Use resources to help you
 
-AQuA Testing Criteria
+##AQuA Testing Criteria
 * AQuA 
 
 
-# Top 10 Errors
+## Top 10 Errors
 * User interface inconsistency
 * Lack of clarity of graphics and text
 * Language inconsistency and spelling errors
@@ -53,23 +63,20 @@ AQuA Testing Criteria
 * Network connection: lack of notification
 * Screen orientation distortion
 
-About AQuA
+##About AQuA
 * Best practices
 * AT&T ARO tool (open source)
 * Online Testing Criteria Tool
 * The Quality App Directory
 
-Effective QA
+##Effective QA
 * Start with good practices
 * ...
 * ...
 
-Three Tips
+##Three Tips
 * Regression testing can and should be automated
 * Choose your tools carefully, use the right tool for the right task
 * Have someone else do som testing
 
 [www.appqualityalliance.org](www.appqualityalliance.org "AQuA online") 
-
-
-# 
