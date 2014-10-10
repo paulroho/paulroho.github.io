@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Workshop Selenium, Selendroid and ios-driver Mobile and Web Automation Using One API and One Infrastructure (Michael Palotas)
 tags: [Mobile App Europe 2014, Mobile Apps, Selenium, WebDriver, Test Automation]
 ---
@@ -13,20 +13,18 @@ by Michael Palotas (Gridfusion, eBay)
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
-End-to-end-test over different devices (desktop - mobile - tablet)
-Ability to directly access an API or a database
-
-Selenium webdriver is becoming a W3C standard -> Every browser will support Selenium: [http://www.w3.org/TR/webdriver](http://www.w3.org/TR/webdriver)
-
-Selenium Grid - scale tests to several nodes (different OS/browser) 
+* End-to-end-test over different devices (desktop - mobile - tablet)
+* Ability to directly access an API or a database
+* Selenium webdriver is **becoming a [W3C standard](http://www.w3.org/TR/webdriver)** -> Every browser will support Selenium!
+* Selenium Grid - scale tests to several nodes (different OS/browser) 
 
 ##Webdriver Protocol
-AKA "JSON wire protocol"
-Client with bindings to several languages (C#, Java, Ruby, Python, ...)
-JSON Wire Protocol
-Server to be downloaded for each browser (except FireFox - in standard Selenium JAR)
+* AKA "JSON wire protocol"
+* Client with bindings to several languages (C#, Java, Ruby, Python, ...)
+* JSON Wire Protocol
+* Server to be downloaded for each browser (except FireFox - in standard Selenium JAR)
 
-Selendroid and iOS-Driver for the mobile browsers
+* Selendroid and iOS-Driver for the mobile browsers
 
 nuget Package for .NET:
 
@@ -101,8 +99,8 @@ Now the grid can be targeted by using the RemoteWebDriver:
 * Hybrid app support
 * No jailbreaking of device required
 
-* [http://ios-driver.github.io/ios-driver/](http://ios-driver.github.io/ios-driver/)
-* [http://selendroid.io/](http://selendroid.io/)
+* [iOS-driver](http://ios-driver.github.io/ios-driver/)
+* [Selendroid](http://selendroid.io/)
 
 ##Setup for selendroid:
 
