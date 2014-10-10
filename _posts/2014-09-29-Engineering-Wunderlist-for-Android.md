@@ -8,7 +8,7 @@ Mobile App Europe 2014 Notes
 
 Engineering Wunderlist for Android
 ===
-Notes on a [session](http://mobileappeurope.com/talks/engineering-wunderlist-android/ "")
+Notes on a [session](http://mobileappeurope.com/talks/engineering-wunderlist-android/ "Engineering Wunderlist for Android")
 by César Valiente (6Wunderkinder GmbH)
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
