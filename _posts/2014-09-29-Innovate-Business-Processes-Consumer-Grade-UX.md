@@ -1,12 +1,22 @@
+---
+layout: blogdraft
+title: How to Innovate Business Processes and Create a Consumer-Grade User Experience with Tailored Enterprise-Ready Mobile Solutions (Oliver Betz)
+tags: [Mobile App Europe 2014, Mobile Apps]
+---
+
+Mobile App Europe 2014 Notes
+
 How to Innovate Business Processes and Create a Consumer-Grade User Experience with Tailored Enterprise-Ready Mobile Solutions
 ===
+Notes on a [session](http://mobileappeurope.com/talks/innovate-business-processes-create-consumer-grade-user-experience-tailored-enterprise-ready-mobile-solutions/ "How to Innovate Business Processes and Create a Consumer-Grade User Experience with Tailored Enterprise-Ready Mobile Solutions")
 by Oliver Betz (SAP) 
+at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 Mainly developing for iOS (north american market)
 
-Enterprise software younger employees, higher employee turnover
-Therefore trend: consumer-grade UX is the new standard in the enterprise
+* Enterprise software younger employees, higher employee turnover
+* Therefore trend: consumer-grade UX is the new standard in the enterprise
 
 Why UX:
 
@@ -28,7 +38,7 @@ Interesting: different target platforms for different areas in the world:
 * App1: iOS, no Android in the US,
 * App2: even a blackberry app for the canadian market).
 
-*App1 :Example: Kiewit (big US constrution company), 200 trucks a day (checkin in central office using backend system)
+* App1 :Example: Kiewit (big US constrution company), 200 trucks a day (checkin in central office using backend system)
 
 Funny: Betz was two or three times surprised about the applications behaviour
 
