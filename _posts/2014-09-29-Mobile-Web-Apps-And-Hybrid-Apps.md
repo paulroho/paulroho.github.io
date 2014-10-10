@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Mobile Web Apps and Hybrid Apps – from Zero to Hero (Martin Naumann)
 tags: [Mobile App Europe 2014, Mobile Apps, Hybrid Apps, Mobile Web, ionic]
 ---
@@ -13,6 +13,8 @@ by Martin Naumann (Centralway Headquarters AG)
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
+
+Building a MobileWebApp with [ionic](http://ionicframework.com/) and [Apache Cordova](http://cordova.apache.org/) and [PhoneGap](http://phonegap.com/) build.
 
 1. Update nodejs
 
@@ -45,7 +47,7 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 8. Scan the build output with a QR-code scanner
 
 9. (With Chrome on Android) Debug on the device
-    * In Google Chrome: chrome://inspect, choose device
+    * In Google Chrome: [chrome://inspect](chrome://inspect), choose device
     * Changes in the code (e.g. Dom Inspector - immediately reflects on phone)
 
 
