@@ -1,6 +1,6 @@
 ---
 layout: blogdraft
-title: Keynote: Effective QA – Is It Really Necessary? (Martin Wrigley)
+title: Keynote: Effective QA – Is It Really Necessary (Martin Wrigley)
 tags: [Mobile App Europe 2014, Mobile Apps, Test Automation]
 ---
 
