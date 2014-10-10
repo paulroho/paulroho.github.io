@@ -1,6 +1,16 @@
-MAE2014 Day 1 - Mobile Web Apps and Hybrid Apps – from Zero to Hero
+---
+layout: blogdraft
+title: Mobile Web Apps and Hybrid Apps – from Zero to Hero (Martin Naumann)
+tags: [Mobile App Europe 2014, Mobile Apps, Hybrid Apps, Mobile Web, ionic]
+---
+
+Mobile App Europe 2014 Notes
+
+Mobile Web Apps and Hybrid Apps – from Zero to Hero
 ===
-by Martin Naumann
+Notes on a [workshop](http://mobileappeurope.com/talks/mobile-web-apps-and-hybrid-apps-from-zero-to-hero-2/ "Mobile Web Apps and Hybrid Apps – from Zero to Hero")
+by Martin Naumann (Centralway Headquarters AG)
+at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
@@ -33,8 +43,8 @@ c) Click "Ready to build"
 
 9. (For Android 4.4+) Debug on the device
 
-In Google Chrome: chrome://inspect, choose device
-Changes in the code (e.g. Dom Inspector - immediately reflects on phone)
+* In Google Chrome: chrome://inspect, choose device
+* Changes in the code (e.g. Dom Inspector - immediately reflects on phone)
 
-Alternative for jQuery on mobiles: [jqlite](https://code.google.com/p/jqlite/ "jqlite")
+* Alternative for jQuery on mobiles: [jqlite](https://code.google.com/p/jqlite/ "jqlite")
 
