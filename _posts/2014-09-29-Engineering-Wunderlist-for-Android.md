@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Engineering Wunderlist for Android (César Valiente)
 tags: [Mobile App Europe 2014, Mobile Apps, Architecture, Android]
 ---
@@ -14,9 +14,11 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
+César showed off the architecture of the [Wunderlist App for Android](https://play.google.com/store/apps/details?id=com.wunderkinder.wunderlistandroid "Wunderlist App in the Google Play Store") for [Wunderlist](https://www.wunderlist.com/). While some amount was standard ingredients, there were some interesting aspects:
+
 ## API
-* Websocket
-* REST - Fallback for Websockets
+* Websocket - support for instant notifications
+* REST - mainly as fallback for Websockets
 
 ## Android Layer
 * Event Bus for asynchronous communication
