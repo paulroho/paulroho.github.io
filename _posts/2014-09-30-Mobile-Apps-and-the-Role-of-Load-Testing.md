@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Mobile Apps and the Role of Load Testing (Peter Varhol)
 tags: [Mobile App Europe 2014, Mobile Apps, Test Automation, Load Testing]
 ---
@@ -13,6 +13,7 @@ by Peter Varhol (Aras Corporation)
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
+
 ##Why Load Test Mobile Apps?
 * Load testing the backend infrastructure (the app itself has just a single user)
 * Can the server handle the expected number of users?
@@ -22,11 +23,11 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 * Expected number of users is a serviced with acceptable performance
 * The application stresses approximately evenly across tiers and components
 * The application fails gracefully
-* App and backend infrastructure serves a variaty of business cases (normal use, seasonal high use, new product or marketing initiatives)
+* App and backend infrastructure serves a variety of business cases (normal use, seasonal high use, new product or marketing initiatives)
 
 ##Business Issues in Mobile Load Testing
 * The market moves too fast
-* We don't know how the app is goint to be used
+* We don't know how the app is going to be used
 * If a public app, we don't know how many people will use it
 
 => So we have to make some market and use assumptions
