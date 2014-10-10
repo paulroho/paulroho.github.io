@@ -1,10 +1,20 @@
-MAE2014 Day 2 - How to Use Mobile Emulators and Simulators to Test the Mobile Diversity
+---
+layout: blogdraft
+title: How to Use Mobile Emulators and Simulators to Test the Mobile Diversity (Stefan Gwihs & Philipp Strelka)
+tags: [Mobile App Europe 2014, Mobile Apps]
+---
+
+Mobile App Europe 2014 Notes
+
+How to Use Mobile Emulators and Simulators to Test the Mobile Diversity
 ===
-by Stefan Gwihs & Philipp Strelka
+Notes on a [session](http://mobileappeurope.com/talks/use-mobile-emulators-simulators-test-mobile-diversity/ "How to Use Mobile Emulators and Simulators to Test the Mobile Diversity")
+by Stefan Gwihs & Philipp Strelka (Anecon)
+at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
-#Challenges
+##Challenges
 * Usability
 * Network
 * Tool
@@ -19,21 +29,21 @@ by Stefan Gwihs & Philipp Strelka
 * Emulators & Simulators
 * Multi-layer test (example: important for an in-house CRM)
 
-#Risk-based device selection
+##Risk-based device selection
 * Experience
 * Statistics
 * Boundary Cases
 * Exclusions
 
-#Multi-Layer Testing
+##Multi-Layer Testing
 * Testing pyramid - compared to food pyramid
 * Multi-Layer architecture - choose the right layer for each test, not any layer must be skipped, especially not the UI-level, most of the severe bugs appeared on all devices, so can be found by testing on e.g. the service layer
 
-#Emulators and Simulators
+##Emulators and Simulators
 
-WANem - simulate network behavior for mobile testing
+* WANem - simulate network behavior for mobile testing
 
-##Cons
+###Cons
 * Slow
 * Not 100% accurate
 * No UX
@@ -41,7 +51,7 @@ WANem - simulate network behavior for mobile testing
 * System depended
 * Update handling
 
-##Pros
+###Pros
 * Cheap
 * Flexible
 * Accurate
