@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Offline Architectures for Mobile Apps (Christian Poecher)
 tags: [Mobile App Europe 2014, Mobile Apps, Offline, Architecture]
 ---
@@ -61,17 +61,17 @@ Offline not considered as a failure, but just a property you have to deal with
 * Before - custom made development in project
 * Today - efficient and enterprise-quality framework usage -> pick one
 
-##Hood.ie
+##[Hoodie](http://hood.ie/)
 * Personal Sync-framework
 * JavaScript
 * Web and iOS
 
-##Share.JS
+##[Share.JS](http://sharejs.org/)
 * Library for Operational transform
 * Base for real-time synchronization, CSCW
 * Eventual consistency
 
-##Kony Sync
+##[Kony Sync](http://www.kony.com/products/development/sync)
 * Complete data-sync platform
 * server-based runtime
 * cross-platform native or HTML5-UI generation client library for all channels (iOS, Android, Windows, BlackBerry, HTML5)
