@@ -43,13 +43,13 @@ Building a MobileWebApp with [ionic](http://ionicframework.com/) and [Apache Cor
     2. Provide a name
     3. Click "Ready to build"
 
-
 8. Scan the build output with a QR-code scanner
 
+
+##Miscellaneous
 9. (With Chrome on Android) Debug on the device
     * In Google Chrome: [chrome://inspect](chrome://inspect), choose device
-    * Changes in the code (e.g. Dom Inspector - immediately reflects on phone)
-
+    * Changes in the code (e.g. Dom Inspector) immediately reflect on phone
 
 * Alternative for jQuery on mobiles: [jqlite](https://code.google.com/p/jqlite/ "jqlite")
 
