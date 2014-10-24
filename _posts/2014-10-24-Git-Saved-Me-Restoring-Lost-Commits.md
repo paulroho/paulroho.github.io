@@ -16,14 +16,14 @@ Regarding [git](http://git-scm.com/) I can do the very basics on the command lin
 ![GitExtension's Main Window](/images/posts/GitRecoverLostCommits/00_GitExt.PNG)
 {: .image}
 
-On a very basic view, GitExtensions gives me a nice graphical representation of the branches and merges, shows the files in the commit along with the changes made for each file. A host of menu items give access to a lot more features out of the vast feature-set of git. Shortcuts make it convenient to perform the most commonly used tasks.
+On a very basic view, GitExtensions gives me a nice graphical representation of the branches and merges, shows the files in the commit along with the changes made for each file. A host of menu items give access to a lot more functions out of git's vast feature-set. Shortcuts make it convenient to perform the most commonly used tasks.
 
 So that's all more than fine. 
 
-### Branches And GitExtensions
+### Branching, Merging And GitExtensions
 As I have had some hard times dealing with branches in GitExtensions, I must say that this part of the user interface feels not so well thought out to me. Sometimes it can be even disturbing. Especially when merging, I find it is not clear which branch is to be merged into what branch.
 
-But checking out seemed obvious to me. Until recently.
+But just *checking out* a branch seemed obvious to me. Until recently.
 
 ## Synopsis
 
