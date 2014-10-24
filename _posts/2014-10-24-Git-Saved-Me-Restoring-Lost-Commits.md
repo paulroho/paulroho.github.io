@@ -1,6 +1,6 @@
 ---
 layout: blogdraft
-title: Git Saved Me: Restoring Lost Commits
+title: Git Saved Me - Restoring Lost Commits
 tags: [git]
 ---
 
