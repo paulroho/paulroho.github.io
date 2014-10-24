@@ -4,30 +4,34 @@ title: Git Saved Me - Restoring Lost Commits
 tags: [git]
 ---
 
-Today I lost several commits to a local git repository that were not pushed to the remote by that time. As you might understand, this made me feel very unpleasant. It was really hard work that I lost by just a few clicks.
+Today I lost several commits to a local git repository that were not pushed to the remote by that time. As you might understand, this made me feel very unpleasant. It was hard work that I lost by just a few clicks.
 
 In this post I will show you in some detail how I came into that situation and how I managed to finally recover these not-so lost commits.
 
 ## GitExtensions
-Despite a few half-hearted attempts to familiarize myself with my Mac and its OS X, I still am  a Windows-guy. Regarding git I know the basics in the command line, but for my day-to-day work with this awesome tool, I mainly use the great [GitExtensions](https://github.com/gitextensions/gitextensions). This tool provides me with a nice user interface for all the git operations I do and many more I am not ready to check out at my current knowledge of git.
+Despite a few half-hearted attempts to familiarize myself with my Mac and its OS X, I am  a Windows-guy.
+
+Regarding [git](http://git-scm.com/) I can do the very basics on the command line. But for my day-to-day work, I mainly use [GitExtensions](https://github.com/gitextensions/gitextensions). This tool provides me with a nice user interface for all the git operations I do and many more things I am not ready to check out at my current knowledge of git.
 
 ![GitExtension's Main Window](/images/posts/GitRecoverLostCommits/00_GitExt.PNG)
 {: .image}
 
-### Branches And GitExtensions
-As I have had some hard times dealing with branches in GitExtensions, I must say that this part of the user interface feels not so well thought out to me. Sometimes it can be even disturbing.
+On a very basic view, GitExtensions gives me a nice graphical representation of the branches and merges, shows the files in the commit along with the changes made for each file. A host of menu items give access to a lot more features out of the vast feature-set of git. Shortcuts make it convenient to perform the most commonly used tasks.
 
-Especially when merging, I find it is not clear which branch is to be merged into what branch.
+So that's all more than fine. 
+
+### Branches And GitExtensions
+As I have had some hard times dealing with branches in GitExtensions, I must say that this part of the user interface feels not so well thought out to me. Sometimes it can be even disturbing. Especially when merging, I find it is not clear which branch is to be merged into what branch.
 
 But checking out seemed obvious to me. Until recently.
 
 ## Synopsis
 
-The local master branch was several commits ahead of the associated remote:
+I was working on a repository with the local master branch being several commits ahead of the associated remote:
 
 ![The repository as it was before the incident](/images/posts/GitRecoverLostCommits/01_SituationBefore_GitExt.PNG)
 
-Then I realized that I needed the version from a file as it was on the remote master (origin/master). So I thought it would be easy to just checkout the commit, grab that version of the desired file and go back to where I was in my local master branch. And here the tragic started.
+Having arrived in that state I realized that I needed an older version of a file. To be exact, I needed exactly that version that was on the remote master (origin/master). So I thought it would be easy to just checkout the commit, grab that version of the desired file and go back to where I was in my local master branch. And here the tragic started.
 
 I selected the commit, and chose "Checkout branch" from the context menu:
 
