@@ -4,6 +4,8 @@ title: Git Saved Me - Restoring Lost Commits
 tags: [git]
 ---
 
+#Git Saved Me - Restoring Lost Commits
+
 Today I lost several commits to a local git repository that were not pushed to the remote by that time. As you might understand, this made me feel very unpleasant. It was hard work that I lost by just a few clicks.
 
 In this post I will show you in some detail how I came into that situation and how I managed to finally recover these not-so lost commits.
@@ -65,6 +67,9 @@ To my big surprise, I ended up with this shocking image:
 {: .image}
 
 All the commits that my local master was ahead of the remote master were gone!
+
+![OMG!](/images/posts/GitRecoverLostCommits/terrified.png)
+{: .image}
 
 ##The Cure
 In this desperate situation, I fortunately found a post named [restoring lost commits](http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html) on [Nick Quaranto](https://twitter.com/qrush)'s awesome [git ready](http://gitready.com/) site.
