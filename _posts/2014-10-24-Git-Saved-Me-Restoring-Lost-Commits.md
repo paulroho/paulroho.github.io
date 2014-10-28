@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Git Saved Me - Restoring Lost Commits
 tags: [git]
 ---
@@ -32,7 +32,7 @@ I was working on a repository with the local master branch being several commits
 ![The repository as it was before the incident](/images/posts/GitRecoverLostCommits/01_SituationBefore_GitExt.PNG)
 {: .image}
 
-For those not familiar with GitExtensions, red icons ![A local branch in GitExtensions](/images/posts/GitRecoverLostCommits/branch_master_GitExt.png) show local branches. Green icons ![A remote branch in GitExtensions](/images/posts/GitRecoverLostCommits/branch_originmaster_GitExt.png) are used for remote branches. Note that the local master branch is using a bold font signaling that this branch is currently checked out. The remote branch origin/master is using a non-bold font because it is behind the local master.
+For those not familiar with GitExtensions, red icons like ![A local branch in GitExtensions](/images/posts/GitRecoverLostCommits/branch_master_GitExt.png) show local branches. Green icons like ![A remote branch in GitExtensions](/images/posts/GitRecoverLostCommits/branch_originmaster_GitExt.png) are used for remote branches. Note that the local master branch is using a bold font signaling that this branch is currently checked out. The remote branch origin/master is using a non-bold font because it is behind the local master.
 
 The icon ![A label in GitExtensions](/images/posts/GitRecoverLostCommits/label_GitExt.png) depicts just a label I applied to tackle down some version.
 
@@ -73,10 +73,9 @@ All the commits that my local master was ahead of the remote master were gone!
 
 ##The Cure
 In this desperate situation, I fortunately found a post named [restoring lost commits](http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html) on [Nick Quaranto](https://twitter.com/qrush)'s awesome [git ready](http://gitready.com/) site.
-
 With the help of this concise and clear post, I managed to get back my lost commits in a matter of minutes. Most of that time was due to making safety copies and double-checking everything I did.
 
-The post basically shows how to get back commits that have already been marked for garbage collection, but might not be actually removed from the repository's internal data structures.
+Nick's post basically shows how to get back commits that have already been marked for garbage collection, but might not be actually removed from the repository's internal data structures.
 
 Here are the steps following Nick's post for my special situation:
 
@@ -103,7 +102,7 @@ So I was a bit relieved. There seemed to be a good chance to really recover my l
 
 The next step was bringing back the lost commits to the current branch. From Nick's post it was not super clear to me, if I would have to do it commit by commit, or if it would be possible to get back all commits at once. Since I had my backup copy, I could experiment without fear.
 
-I just assumed, that it would work for multiple commits. I grabbed the last commits sha ````4c27c662cc617...```` and tried the merge with it:
+I just assumed that it would work for multiple commits. I grabbed the last commits sha ````4c27c662cc617...```` and tried the merge with it:
 
     git merge 4c27
 
