@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Judging People – Why We Are Wrong When We Think We Are Right (Dr. Chaehan So)
 tags: [Mobile App Europe 2014, Mobile Apps, Psychology]
 ---
@@ -13,16 +13,23 @@ by [Dr. Chaehan So](http://twitter.com/agilebean/) (Axel Springer Ideas Engineer
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
-Misconception: Psychology derives trait from observing behaviour. - Wrong!
-Psychological research does the opposite: What is the probability for a behaviour given a trait?
+**A Common Misconception:**  
+Psychology derives trait from observing behaviour. - **Wrong!**
 
-Psychological Effect size: difference/distance between averages
+Psychological research does the opposite:  
+*"What is the probability for a behaviour given a trait?"*
 
-Why do we think that we are right? Because we want to be right. We're hard wired for that.
+**Psychological Effect size**  
+Difference/distance between averages
 
-Confirmation Bias: Tendency to neglect information that disconfims our believe: We look for evidence that supports our thinking, we do not look for disconfirm.
+>Why do we think that we are right? -  
+Because we want to be right. We're hard wired for that.
+
+**Confirmation Bias**  
+Tendency to neglect information that disconfirms our believe: We look for evidence that supports our thinking, we do not look for disconfirm.
 
 Where do I seek for confirm:
+
 * Separating waste helps protect the environment
 * Getting enough sleep makes me feel better
 * Being too much indoors makes me feel bad
@@ -37,15 +44,18 @@ Selective perception:
 
 Shield us from negative feedback
 
-Cognition - information processing we monitor it -> metacognition - can control cognition
-metcognition: how do we think how good we are
+##Cognition/Metacognition
+**Cognition** - information processing  
+when we monitor it -> Metacognition - can control cognition
+**Metacognition**: how do we think how good we are
 
-People don't see their cognitive inabilities, they ned feedback
+People don't see their cognitive inabilities, they **need feedback**
 
-Metacognitive Training: align metacognition and cognition
+**Metacognitive Training**: align metacognition and cognition
 
-PIMP 
-* Perception - I did not see you checked in code
-* IMpact - That broke the build
-* and
-* Proposal - inform me when you checkin code
+##PIMP 
+
+* **P**erception - *"I did not see you checked in code"*
+* **IM**pact - *"That broke the build"*  
+  and
+* **P**roposal - *"Inform me when you check in code"*
