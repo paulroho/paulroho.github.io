@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: iBeacons - The Opportunity (Mark Mason)
 tags: [Mobile App Europe 2014, Mobile Apps, Internet Of Things, iBeacons]
 ---
@@ -13,29 +13,40 @@ by Mark Mason (Mubaloo)
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
+Definition
+
 * Beacons - blue tooth device
 * iBeacons - Apple's profile to do beacons
 
-Contextually relevant information from right person, right place, at the right time.
+Contextually relevant information
 
-iBeacon technical overivew
-* low energy bluetootl (up days, up to 2years, 9years with slow ping)
-* pings unique id
+* from right person
+* at the right place
+* at the right time
+
+[http://www.ibeacon.com/](http://www.ibeacon.com/)
+
+##iBeacon - Technical Overview
+
+* Low energy bluetooth (BLE) (running for days, up to 2 years, even 9 years with slow ping)
+* Pings unique id
 * Phone App installed: phone notifies to open the up the app
-* pings 100ms & configurable power
+* Pings 100ms & configurable power
 
-##iBeacon triggers (ranging)
-* proximity (immediate .3m, near 2m, far 30m)
+##iBeacon Triggers (Ranging)
+* Proximity
+    * immediate: 0.3m
+    * near: 2m
+    * far: 30m
 * Entry/exit
-* Time (dwell - e.g. ping after 1minute), since last visit)
-* visits
-* combinations
+* Time (dwell - e.g. ping after 1 minute), since last visit
+* Visits
+* Combinations
 
 ##UUIDs
-* UUID - "Welcome"
-* UUID+MajorID - "Welcome to the sporting goods department, checkut our special ...."
-* UUID + MajorID+ MinorID - "A notification triggered wehn user gets to the golf section"
-
+* **UUID** - same for all beacons in all stores of a brand - *"Welcome"*
+* UUID + **MajorID** - same for all beacons in one store or department - *"Welcome to the sporting goods department, checkout our special ..."*
+* UUID + MajorID + **MinorID** - individual for each beacon - *A notification triggered when user gets to the golf section*  
 Message to the shop employee: someone is standing in the golf department
 
 ##User centric
@@ -43,29 +54,29 @@ Just because we can doesn't mean we should do it
 
 ##Use Case Showroom
 * Welcome and identify current customers & potential new customers
-* Maximise salesperson utilization
+* Maximize salesperson utilization
 * Monitor vehicle engagement & showroom layout
 * Improve overall showroom experience
 
-##Use Case Transort Crossrail
+##Use Case Transport [Crossrail](http://www.crossrail.co.uk/)
 * Driver logging and timetable accuracy (also maintenance, cleaning)
 * Trigger relevant and dedicated apps
-* Monitor and schedula maintenance personnel and equipment
-* Monitor personell activity (security personnel, changing routes)
+* Monitor and schedule maintenance personnel and equipment
+* Monitor personnel activity (security personnel, changing routes)
 
-##Use Case - Officies
+##Use Case - Offices
 * Room usage and availability
-* Facitiltes/maintenance
+* Facilities/maintenance
 * Hot desk availability
 * Capacity planning (where to put certain things)
 
 Position tracking - Beacons on top of WiFi based location determination
 
 ##Use Case Shopping centres
-* Blue dot wayfinding, turn by tun directions an Mall map
-* Traffice flow analysiss for retail lease rates
+* Blue dot wayfinding, turn by tun directions an mall map
+* Traffic flow analysis for retail lease rates
 * Event alerts
-* Profile responsive Adhells
+* Profile responsive Adhells - *what does this mean?*
 * Provision of customer incentives
 * Car parking
 
@@ -77,7 +88,7 @@ Position tracking - Beacons on top of WiFi based location determination
 * Payment
 
 ##Use Case Hospitality
-* Autoimatic door entry
+* Automatic door entry
 * In-room payment
 * Hotel navigation
 * Rewards
@@ -86,7 +97,7 @@ Position tracking - Beacons on top of WiFi based location determination
 ##Use Cases Events
 * Blue dot wayfinding, layout
 * Traffic flow analysis for outlet monitoring and queue busting
-* Catering - order and pay direct from their seatr
+* Catering - order and pay direct from their seat
 * Video playback of action from alternate view or archived video (knows where you sit - offer different position)
 * A platform any team can use
 
@@ -102,4 +113,4 @@ Position tracking - Beacons on top of WiFi based location determination
 * Download app
 * "What's in it for me?"
 * Developing a seamless omni-channel experience
-* a well thought through content and context strategy
+* A well thought through content and context strategy
