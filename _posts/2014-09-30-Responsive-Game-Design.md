@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: Responsive Game Design (Jesse Freeman)
 tags: [Mobile App Europe 2014, Mobile Apps, Games]
 ---
@@ -14,27 +14,32 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
 
-##Why Make One Game a Month?
-1. Quickly explorer and prototype ideas
-2. Focus on only the core game mechanics
+##Why Make [One Game a Month](http://www.onegameamonth.com/)?
+1. Quickly explore and prototype ideas
+2. Focus only on the core game mechanics
 3. Learn to work under pressure
 4. Find the motivation to complete a game
 5. Gain experience from publishing a game
 
-http://games.jessefreeman.com
+Jesse's games: [http://games.jessefreeman.com](http://games.jessefreeman.com)
 
-Amazon Fire Phone
-Dynamic Perspective and Firefly (use api for the metadata to use in your own api)
+##Amazon Mobile
+###Amazon [Fire Phone](http://www.amazon.com/Fire_Phone_13MP-Camera_32GB/dp/B00EOE0WKQ)
 
-75% of apks work on Fire OS
+* [Dynamic Perspective](https://www.youtube.com/watch?v=yTApE-3vqHo)
+* [Firefly](https://developer.amazon.com/public/solutions/devices/fire-phone/docs/understanding-firefly)
+* use api for the metadata to use in your own api - *what's meant by that?*
 
-Amazon Appstore
+* 75% of apks work on Fire OS
+
+###Amazon Appstore
 * Fire Phone
 * Fire HD/HDX
 * Fire TV
 * Amazon App for Android
 * Mac & PC
 
+## Mobile Games
 Classical responsive design does not work especially well for games
 
 * Game graphics and UI support multiple resolution
@@ -42,14 +47,14 @@ Classical responsive design does not work especially well for games
 * Publish to multiple platforms with the same codebase
 * Saved data is synced across all platforms
 
-##Game Graphics and UI
+###Game Graphics and UI
 * Mobile first
 * Handling different resolutions -> understand aspect ratios 16:9 and 4:3
 * Scale up/down from there
 
-##Input
+###Input
 
 Virtual Joystick
 
-##Single Code Base
+###Single Code Base
 
