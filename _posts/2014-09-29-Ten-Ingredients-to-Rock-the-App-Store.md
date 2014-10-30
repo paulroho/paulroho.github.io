@@ -1,5 +1,5 @@
 ---
-layout: blogdraft
+layout: blog
 title: 10 Ingredients to Rock the App Store with Your App (Christian Kaar)
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---
@@ -16,7 +16,7 @@ at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 (Started with 10 Squats with the audience)
 
-Runtastic currently has 18 Apps in the stores (Outdoor Sports, Indoor Sports, Heart rate - even without belt, just the camera of the smart phone, weight management, nutrition, daily movement)
+[Runtastic](https://www.runtastic.com/) currently has [18 Apps](https://www.runtastic.com/en/apps) in the stores (Outdoor Sports, Indoor Sports, Heart rate - even without belt, just the camera of the smart phone, weight management, nutrition, daily movement)
 
 * 90 million downloads
 * 40+ million registered users
@@ -26,35 +26,41 @@ Runtastic currently has 18 Apps in the stores (Outdoor Sports, Indoor Sports, He
 * ~.5 mio apps downloaded once
 * ~50% used five times or more
 
-* 10bill purchases AppStore
-* 13bill purchases Play Store
+* 10bill purchases in AppStore
+* 13bill purchases in Play Store
 
 ##1. Create a Great Product
-* Solve a problem (e.g. Xx improved security problems with WhatsApp after purchased by Facebook)
+* Solve a problem
+    * e.g. [Telegram](https://telegram.org/apps) or [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) improved over security problems with [WhatsApp](http://www.whatsapp.com/) after it had been purchased by [Facebook](https://www.facebook.com/))
 * Entertain
-* Improve another app (e.g. WhatsApp over Text messaging)
+* Improve another app (e.g. [WhatsApp](http://www.whatsapp.com/) over Text messaging)
 * Functional
 * User Experience
 
 ##2. Easy to Use
-* Simplicity - no one has time to figure out how to operate with it.
+* Simplicity - no one has time to figure out how to operate it
 * Don't overload (20/80 rule)
-* Common patterns
-* Intuitive (the parents test - give it to your mom, example Shazam - just one button, Google search, one input box, one button, tinder dating app)
+* Use common patterns
+* Intuitive
+    * Make the **parents test** - give it to your mom
+    * Example [Shazam](http://www.shazam.com/) - a single button
+    * Example [Google search](http://www.google.com/) - one input box, one button
+    * Example [Tinder](http://www.gotinder.com/) dating app - like/don't like
 * No user manual
 
 ##3. Fast Iterations
 * Agile
 * Fail fast
 * Feedback
-* Alpha/Beta channels (Android), Testflight (iOS)
+* [Alpha/Beta channels](https://support.google.com/googleplay/android-developer/answer/3131213?hl=en) on Android
+* [Testflight](https://www.testflightapp.com/) on iOS
 * Build Automation
-* Continous Integration (Google Deverloper API - automatically deploy your apk to Alpha/Beta-channels)
+* Continous Integration ([Google Developer API](https://code.google.com/apis/console/?pli=1) - automatically deploy your apk to Alpha/Beta-channels)
 
 ##4. Optimize For Platforms
-* Live a platform (in private life)
+* **Live a platform** - in private life!
 * User interface
-* Platform guidelines (iOS: Action Specifics, Android: intents)
+* Platform guidelines
 * User experience
 
 ##5. Build the Picture, Optimize the Details
@@ -78,7 +84,9 @@ Runtastic currently has 18 Apps in the stores (Outdoor Sports, Indoor Sports, He
 * App crashes
 
 ##8. App Reviews
-* Average rating (AppStore: new rating with each new version, Play Store: overall rating)
+* Average rating
+    * AppStore: new rating with each new version
+    * Play Store: overall rating for all versions
 * User feedback
 * Relevant for buy/download decision
 
@@ -97,7 +105,7 @@ Runtastic currently has 18 Apps in the stores (Outdoor Sports, Indoor Sports, He
 * Space for creativity
 * Motivation
 
-DONI - Day of new ideas (once a month)
+Runtastic: DONI - Day of new ideas (once a month)
 
 ## Conclusion
 * Strive for excellence
