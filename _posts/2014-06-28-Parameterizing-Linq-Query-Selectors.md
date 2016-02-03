@@ -16,7 +16,7 @@ To give the child a name, say we have a customer repository and we need to get a
 
 Fair enough, that looks like the obvious routine stuff: query the underlying storage of customers to get the matching customer - nice and easy with linq:
 
-```
+```csharp
     Customer GetCustomer(string customerNo)
     {
         ...
