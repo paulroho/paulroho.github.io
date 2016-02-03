@@ -4,3 +4,11 @@ name:         PaulRoho.com - On Developing Software
 description:  Paul Rohorzka on developing software. Software that evolves. The craft of creating software.
 url:          http://paulroho.com
 urlhtml:	  PaulRoho<span class="text-muted">.com</span>
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blog"
+      comments: true
