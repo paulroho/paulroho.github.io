@@ -1,5 +1,6 @@
 ---
 layout: blog
+comments: true
 title: Parameterizing Linq Query Selectors
 ---
 
@@ -160,7 +161,9 @@ public static TSource Single<TSource>(this IEnumerable<TSource> source, Func<TSo
 
 If we want to pass a delegate like this around, the delegate has to be of the following type:
     
-    Func<IEnumerable<T>, Func<T, bool>, T>
+```csharp
+Func<IEnumerable<T>, Func<T, bool>, T>
+```
 
 For those not yet familiar with the `Func`-syntax, this denotes a delegate with two input parameters and a return value:
 
