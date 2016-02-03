@@ -10,16 +10,20 @@ Recently I had the requirement for a typical query method that should return a s
 
 To give the child a name, say we have a customer repository and we need to get a customer based on its customer number that would be a string. Thus, the method's signature would look like this:
 
+```
     Customer GetCustomer(string customerNo)
+```
 
 Fair enough, that looks like the obvious routine stuff: query the underlying storage of customers to get the matching customer - nice and easy with linq:
 
+```
     Customer GetCustomer(string customerNo)
     {
         ...
         return _customers.Single(c => c.CustomerNo == customerNo);
         ...
     }
+```
 
 ## What If We Cannot Find A Customer?
 
