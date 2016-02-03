@@ -9,7 +9,7 @@ Mobile App Europe 2014 Notes
 Android vs. iOS Design – the Double Effort?!
 ===
 Notes on a [session](http://mobileappeurope.com/talks/android-vs-ios-design-double-effort/ "Android vs. iOS Design – the Double Effort?!")
-by [Melinda Albert](www.melinde-albert.de "Melinda Albert")
+by [Melinda Albert](http://www.melinde-albert.de "Melinda Albert")
 at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 
 ---
