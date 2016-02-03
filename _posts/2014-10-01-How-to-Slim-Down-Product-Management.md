@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone (Marc C. Lange)
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---

@@ -1,7 +1,6 @@
 ---
-layout: blog
-comments: true
 title: Parameterizing Linq Query Selectors
+tags: programming linq
 ---
 
 

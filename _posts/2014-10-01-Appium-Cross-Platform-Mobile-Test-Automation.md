@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Appium Cross-Platform Mobile Test Automation for the Masses (Andreas Lüdeke)
 tags: [Mobile App Europe 2014, Testing, Mobile, Cross-Platform, WebDriver]
 ---

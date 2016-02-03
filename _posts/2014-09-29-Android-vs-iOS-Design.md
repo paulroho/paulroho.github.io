@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Android vs. iOS Design – the Double Effort? (Melinda Albert)
 tags: [Mobile App Europe 2014, Mobile Apps, Android, iOS, Design, Usability]
 ---

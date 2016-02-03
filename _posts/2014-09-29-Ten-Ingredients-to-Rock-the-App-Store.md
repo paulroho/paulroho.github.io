@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: 10 Ingredients to Rock the App Store with Your App (Christian Kaar)
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Judging People – Why We Are Wrong When We Think We Are Right (Dr. Chaehan So)
 tags: [Mobile App Europe 2014, Mobile Apps, Psychology]
 ---

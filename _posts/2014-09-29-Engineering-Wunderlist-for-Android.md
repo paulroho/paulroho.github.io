@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Engineering Wunderlist for Android (César Valiente)
 tags: [Mobile App Europe 2014, Mobile Apps, Architecture, Android]
 ---

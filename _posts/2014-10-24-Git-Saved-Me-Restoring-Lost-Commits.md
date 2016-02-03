@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Git Saved Me - Restoring Lost Commits
 tags: [git]
 ---

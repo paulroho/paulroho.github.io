@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Mobile Apps and the Role of Load Testing (Peter Varhol)
 tags: [Mobile App Europe 2014, Mobile Apps, Testing, Load Testing]
 ---

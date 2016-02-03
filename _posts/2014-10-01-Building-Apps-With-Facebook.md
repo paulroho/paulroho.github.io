@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Building Apps with Facebook (Julien Lesaicherre)
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---

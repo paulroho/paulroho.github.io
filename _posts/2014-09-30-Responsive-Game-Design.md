@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Responsive Game Design (Jesse Freeman)
 tags: [Mobile App Europe 2014, Mobile Apps, Games]
 ---

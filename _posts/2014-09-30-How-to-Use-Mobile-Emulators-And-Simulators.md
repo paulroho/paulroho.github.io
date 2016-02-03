@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: How to Use Mobile Emulators and Simulators to Test the Mobile Diversity (Stefan Gwihs & Philipp Strelka)
 tags: [Mobile App Europe 2014, Mobile Apps, Testing]
 ---

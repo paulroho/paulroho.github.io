@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Building, Running, Growing, Engaging, Monetizing, Measuring – 360 degree for Mobile Apps with Google (Jens Bussmann)
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---

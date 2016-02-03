@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: How to Innovate Business Processes and Create a Consumer-Grade User Experience with Tailored Enterprise-Ready Mobile Solutions (Oliver Betz)
 tags: [Mobile App Europe 2014, Mobile Apps]
 ---

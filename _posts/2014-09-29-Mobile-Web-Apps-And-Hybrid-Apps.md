@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Mobile Web Apps and Hybrid Apps – from Zero to Hero (Martin Naumann)
 tags: [Mobile App Europe 2014, Mobile Apps, Hybrid Apps, Mobile Web, ionic]
 ---
