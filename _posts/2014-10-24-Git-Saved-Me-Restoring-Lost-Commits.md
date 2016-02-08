@@ -3,8 +3,6 @@ title: Git Saved Me - Restoring Lost Commits
 tags: [git]
 ---
 
-#Git Saved Me - Restoring Lost Commits
-
 Today I lost several commits to a local git repository that were not pushed to the remote <!-- end-of-excerpt --> by that time. As you might understand, this made me feel very unpleasant. It was hard work that I lost by just a few clicks.
 
 In this post I will show you in some detail how I came into that situation and how I managed to finally recover these not-so lost commits.
