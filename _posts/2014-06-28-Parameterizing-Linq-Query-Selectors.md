@@ -6,7 +6,7 @@ tags: programming linq
 
 # Parameterizing Linq Query Selectors
 
-Recently I had the requirement for a typical query method that should return a special object out of a kind of repository.
+Recently I had the requirement for a typical query method that should return a specific object out of a kind of repository.
 
 To give the child a name, say we have a customer repository and we need to get a customer based on its customer number that would be a string. Thus, the method's signature would look like this:
 

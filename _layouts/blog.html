@@ -75,7 +75,7 @@
     </div>
 
     <div class="container">
-	  {{ content }}
+	  {{ content | remove_first: '&lt;!-- end-of-excerpt --&gt;' }}
 
 		<div class="tags">
 		{% if page.tags.size > 0 %}
