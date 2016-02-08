@@ -75,7 +75,15 @@
     </div>
 
     <div class="container">
+     {% if post.prehead %}
+      <p>{{ post.prehead }}</p>
+     {% endif %}
      <h1>{{ page.title }}</h1>
+     {% if post.posthead %}
+      <p>{{ post.posthead }}</p>
+     {% endif %}
+     <hr/>
+     
 	  {{ content | remove_first: '&lt;!-- end-of-excerpt --&gt;' }}
 
 		<div class="tags">
