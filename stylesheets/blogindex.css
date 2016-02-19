@@ -1,3 +1,6 @@
+.title-appendix:before {
+   content: ' - ';
+}
 .title-appendix {
    color: gray;
 }

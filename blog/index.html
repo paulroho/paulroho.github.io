@@ -8,11 +8,10 @@ extrastylesheet: blogindex.css
 	  {% for post in site.posts %}
 		{% unless post.layout == 'blogdraft' %}
 			<li>
-			  <a href="{{ post.url }}">{{ post.title }}
-            {% if post.titleappendix %}
-            <span class="title-appendix">{{ post.titleappendix }}</span>
-            {% endif %}
-           </a>
+			  <a href="{{ post.url }}">{{ post.title }}</a>
+           {% if post.titleappendix %}
+           <span class="title-appendix">{{ post.titleappendix }}</span>
+           {% endif %}
 			</li>
 		{% endunless %}
 	  {% endfor %}
