@@ -5,10 +5,21 @@ description:  Paul Rohorzka on developing software. Software that evolves. The c
 url:          http://paulroho.com
 urlhtml:	  PaulRoho<span class="text-muted">.com</span>
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "blog"
       comments: true
+  - scope:
+      path: ""
+      type: mae2014notes
+    values:
+      layout: "blog"
+      comments: true
+      prehead: Mobile App Europe 2014 Notes
+      
+collections:
+  mae2014notes:
+    output: true
+    permalink: /mae2014notes/:year/:month/:title

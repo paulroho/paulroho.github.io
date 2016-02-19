@@ -2,7 +2,6 @@
 title: iBeacons - The Opportunity
 titleappendix: Mark Mason
 tags: [Mobile App Europe 2014, Mobile Apps, Internet Of Things, iBeacons]
-prehead: Mobile App Europe 2014 Notes
 subtitle: > 
   Notes on a [session](http://mobileappeurope.com/talks/ibeacons-opportunity/ "iBeacons: The Opportunity")
   by Mark Mason (Mubaloo)

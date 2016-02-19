@@ -2,8 +2,7 @@
 title: The 7 Deadly Sins of Mobile Apps
 titleappendix: Jonathan Kohl
 tags: [Mobile App Europe 2014, Mobile Apps]
-prehead: Mobile App Europe 2014 Notes
-postheaed: >
+subtitle: >
   Notes on a [keynote](http://mobileappeurope.com/talks/7-deadly-sins-mobile-apps/ "Keynote: The 7 Deadly Sins of Mobile Apps")
   by Jonathan Kohl (Kohl Concepts Inc.) 
   at the [Mobile App Europe 2014](http://mobileappeurope.com/).

@@ -1,0 +1,20 @@
+---
+layout: blog
+title: Notes on Mobile App Europe 2014
+extrastylesheet: blogindex.css
+comments: false
+permalink: /mae2014notes/
+---
+	<p>These are notes on the sessions and keynotes I attended at the Mobile App Europe 2014 in Potsdam:</p>
+	<ul>
+	  {% for post in site.mae2014notes %}
+		{% unless post.layout == 'blogdraft' %}
+			<li>
+			  <a href="{{ post.url }}">{{ post.title }}</a>
+           {% if post.titleappendix %}
+           <span class="title-appendix">{{ post.titleappendix }}</span>
+           {% endif %}
+			</li>
+		{% endunless %}
+	  {% endfor %}
+	</ul>

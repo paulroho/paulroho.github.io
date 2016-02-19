@@ -2,7 +2,6 @@
 title: Mobile Web Apps and Hybrid Apps – from Zero to Hero
 titleappendix: Martin Naumann
 tags: [Mobile App Europe 2014, Mobile Apps, Hybrid Apps, Mobile Web, ionic]
-prehead: Mobile App Europe 2014 Notes
 subtitle: >
   Notes on a [workshop](http://mobileappeurope.com/talks/mobile-web-apps-and-hybrid-apps-from-zero-to-hero-2/ "Mobile Web Apps and Hybrid Apps – from Zero to Hero")
   by Martin Naumann (Centralway Headquarters AG)

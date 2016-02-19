@@ -2,7 +2,6 @@
 title: Android vs. iOS Design – the Double Effort?
 titleappendix: Melinda Albert
 tags: [Mobile App Europe 2014, Mobile Apps, Android, iOS, Design, Usability]
-prehead: Mobile App Europe 2014 Notes
 subtitle: >
   Notes on a [session](http://mobileappeurope.com/talks/android-vs-ios-design-double-effort/ "Android vs. iOS Design – the Double Effort?!")
   by [Melinda Albert](http://www.melinda-albert.de "Melinda Albert")

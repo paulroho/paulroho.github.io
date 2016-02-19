@@ -2,7 +2,6 @@
 title: Offline Architectures for Mobile Apps
 titleappendix: Christian Poecher
 tags: [Mobile App Europe 2014, Mobile Apps, Offline, Architecture]
-prehead: Mobile App Europe 2014 Notes
 subtitle: >
   Notes on a [session](http://mobileappeurope.com/talks/offline-architectures-mobile-apps/ "Offline Architectures for Mobile Apps")
   by Christian Poecher (QuinScape GmbH) 

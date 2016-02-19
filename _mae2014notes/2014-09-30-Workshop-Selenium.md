@@ -2,7 +2,6 @@
 title: Workshop Selenium, Selendroid and ios-driver Mobile and Web Automation Using One API and One Infrastructure
 titleappendix: Michael Palotas
 tags: [Mobile App Europe 2014, Mobile Apps, Selenium, WebDriver, Testing]
-prehead: Mobile App Europe 2014 Notes
 subtitle: > 
   Notes on a [workshop](http://mobileappeurope.com/talks/selenium-selendroid-and-ios-driver-mobile-and-web-automation-using-one-api-and-one-infrastructure/ "Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure")
   by Michael Palotas (Gridfusion, eBay)
