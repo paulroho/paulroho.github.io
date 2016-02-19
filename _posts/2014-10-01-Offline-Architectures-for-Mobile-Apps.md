@@ -1,16 +1,12 @@
 ---
-title: Offline Architectures for Mobile Apps (Christian Poecher)
+title: Offline Architectures for Mobile Apps
+titleappendix: Christian Poecher
 tags: [Mobile App Europe 2014, Mobile Apps, Offline, Architecture]
----
-
-Mobile App Europe 2014 Notes
-
-Offline Architectures for Mobile Apps
-===
-Notes on a [session](http://mobileappeurope.com/talks/offline-architectures-mobile-apps/ "Offline Architectures for Mobile Apps")
-by Christian Poecher (QuinScape GmbH) 
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [session](http://mobileappeurope.com/talks/offline-architectures-mobile-apps/ "Offline Architectures for Mobile Apps")
+  by Christian Poecher (QuinScape GmbH) 
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 * We live in a disconnected world

@@ -1,16 +1,12 @@
 ---
-title: 10 Ingredients to Rock the App Store with Your App (Christian Kaar)
+title: 10 Ingredients to Rock the App Store with Your App
+titleappendix: Christian Kaar
 tags: [Mobile App Europe 2014, Mobile Apps]
----
-
-Mobile App Europe 2014 Notes
-
-Keynote: 10 Ingredients to Rock the App Store with Your App
-===
-Notes on a [keynote](http://mobileappeurope.com/talks/10-ingredients-rock-app-store-app/ "KeyNote: 10 Ingredients to Rock the App Store with Your App")
-by Christian Kaar (Runtastic) 
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [keynote](http://mobileappeurope.com/talks/10-ingredients-rock-app-store-app/ "KeyNote: 10 Ingredients to Rock the App Store with Your App")
+  by Christian Kaar (Runtastic) 
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 (Started with 10 Squats with the audience)

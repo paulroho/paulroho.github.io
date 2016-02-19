@@ -1,14 +1,10 @@
 ---
-title: Appium Cross-Platform Mobile Test Automation for the Masses (Andreas Lüdeke)
+title: Appium Cross-Platform Mobile Test Automation for the Masses
+titleappendix: Andreas Lüdeke
 tags: [Mobile App Europe 2014, Testing, Mobile, Cross-Platform, WebDriver]
----
-
-Appium: Cross-Platform Mobile Test Automation for the Masses
-===
-by Andreas Lüdeke (TestObject) 
-
-[http://mobileappeurope.com/talks/appium-cross-platform-mobile-test-automation-masses/](http://mobileappeurope.com/talks/appium-cross-platform-mobile-test-automation-masses/)
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [workshop](http://mobileappeurope.com/talks/appium-cross-platform-mobile-test-automation-masses/) by Andreas Lüdeke (TestObject) 
 ---
 
 # [Appium](http://appium.io/) Concepts

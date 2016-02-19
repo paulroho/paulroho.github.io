@@ -1,16 +1,12 @@
 ---
-title: Mobile Web Apps and Hybrid Apps – from Zero to Hero (Martin Naumann)
+title: Mobile Web Apps and Hybrid Apps – from Zero to Hero
+titleappendix: Martin Naumann
 tags: [Mobile App Europe 2014, Mobile Apps, Hybrid Apps, Mobile Web, ionic]
----
-
-Mobile App Europe 2014 Notes
-
-Mobile Web Apps and Hybrid Apps – from Zero to Hero
-===
-Notes on a [workshop](http://mobileappeurope.com/talks/mobile-web-apps-and-hybrid-apps-from-zero-to-hero-2/ "Mobile Web Apps and Hybrid Apps – from Zero to Hero")
-by Martin Naumann (Centralway Headquarters AG)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [workshop](http://mobileappeurope.com/talks/mobile-web-apps-and-hybrid-apps-from-zero-to-hero-2/ "Mobile Web Apps and Hybrid Apps – from Zero to Hero")
+  by Martin Naumann (Centralway Headquarters AG)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 Building a MobileWebApp with [ionic](http://ionicframework.com/) and [Apache Cordova](http://cordova.apache.org/) and [PhoneGap](http://phonegap.com/) build.

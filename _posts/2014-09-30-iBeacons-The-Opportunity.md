@@ -1,17 +1,14 @@
 ---
-title: iBeacons - The Opportunity (Mark Mason)
+title: iBeacons - The Opportunity
+titleappendix: Mark Mason
 tags: [Mobile App Europe 2014, Mobile Apps, Internet Of Things, iBeacons]
+prehead: Mobile App Europe 2014 Notes
+posthead: > 
+  Notes on a [session](http://mobileappeurope.com/talks/ibeacons-opportunity/ "iBeacons: The Opportunity")
+  by Mark Mason (Mubaloo)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
-Mobile App Europe 2014 Notes
-
-iBeacons: The Opportunity
-===
-Notes on a [session](http://mobileappeurope.com/talks/ibeacons-opportunity/ "iBeacons: The Opportunity")
-by Mark Mason (Mubaloo)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
----
 Definition
 
 * Beacons - blue tooth device

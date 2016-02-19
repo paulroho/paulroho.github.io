@@ -1,16 +1,12 @@
 ---
-title: So Easy a Child Could Do It - Designing Mobile Apps for Kids (Kathryn Rotondo)
+title: So Easy a Child Could Do It - Designing Mobile Apps for Kids
+titleappendix: Kathryn Rotondo
 tags: [Mobile App Europe 2014, Mobile Apps, Children, Design, Usability, UX, Games]
----
-
-Mobile App Europe 2014 Notes
-
-So Easy a Child Could Do It: Designing Mobile Apps for Kids
-===
-Notes on a [session](http://mobileappeurope.com/talks/so-easy-a-child-could-do-it-designing-mobile-apps-kids/ "So Easy a Child Could Do It: Designing Mobile Apps for Kids")
-by [Kathryn Rotondo](http://twitter.com/krotondo) ([motherboardpodcast.com](http://motherboardpodcast.com))
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: > 
+  Notes on a [session](http://mobileappeurope.com/talks/so-easy-a-child-could-do-it-designing-mobile-apps-kids/ "So Easy a Child Could Do It: Designing Mobile Apps for Kids")
+  by [Kathryn Rotondo](http://twitter.com/krotondo) ([motherboardpodcast.com](http://motherboardpodcast.com))
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 Consider physical abilities of children of various ages.

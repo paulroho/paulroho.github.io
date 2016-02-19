@@ -1,17 +1,14 @@
 ---
-title: Judging People – Why We Are Wrong When We Think We Are Right (Dr. Chaehan So)
+title: Judging People – Why We Are Wrong When We Think We Are Right
+titleappendix: Dr. Chaehan So
 tags: [Mobile App Europe 2014, Mobile Apps, Psychology]
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [keynote](http://mobileappeurope.com/talks/judging-people-wrong-think-right/ "Keynote: Judging People – Why We Are Wrong When We Think We Are Right")
+  by [Dr. Chaehan So](http://twitter.com/agilebean/) (Axel Springer Ideas Engineering)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
-Mobile App Europe 2014 Notes
-
-Keynote: Judging People – Why We Are Wrong When We Think We Are Right
-===
-Notes on a [keynote](http://mobileappeurope.com/talks/judging-people-wrong-think-right/ "Keynote: Judging People – Why We Are Wrong When We Think We Are Right")
-by [Dr. Chaehan So](http://twitter.com/agilebean/) (Axel Springer Ideas Engineering)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
----
 **A Common Misconception:**  
 Psychology derives trait from observing behaviour. - **Wrong!**
 

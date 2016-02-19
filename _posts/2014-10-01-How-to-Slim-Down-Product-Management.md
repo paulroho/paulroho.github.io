@@ -1,17 +1,14 @@
 ---
-title: How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone (Marc C. Lange)
+title: How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone
+titleappendix: Marc C. Lange
 tags: [Mobile App Europe 2014, Mobile Apps]
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [keynote](http://mobileappeurope.com/talks/keynote-mobile-customer-development/ "How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone")
+  by Marc C. Lange (Crowdflow) 
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
-Mobile App Europe 2014 Notes
-
-How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone
-===
-Notes on a [keynote](http://mobileappeurope.com/talks/keynote-mobile-customer-development/ "How to Slim Down Product Management, Gain Valuable Insights and Make Customers Early by Leaving Your Comfort Zone")
-by Marc C. Lange (Crowdflow) 
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
----
 > If I had asked people what they wanted, they would have said faster horses.
 
 * Things what people **say** and what they **need** are **different** things.

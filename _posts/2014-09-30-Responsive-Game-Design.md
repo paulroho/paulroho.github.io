@@ -1,16 +1,12 @@
 ---
-title: Responsive Game Design (Jesse Freeman)
+title: Responsive Game Design
+titleappendix: Jesse Freeman
 tags: [Mobile App Europe 2014, Mobile Apps, Games]
----
-
-Mobile App Europe 2014 Notes
-
-Keynote: Responsive Game Design
-===
-Notes on a [keynote](http://mobileappeurope.com/talks/responsive-game-design/ "Keynote: Responsive Game Design")
-by Jesse Freeman (Amazon Apps & Games)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [keynote](http://mobileappeurope.com/talks/responsive-game-design/ "Keynote: Responsive Game Design")
+  by Jesse Freeman (Amazon Apps & Games)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 ##Why Make [One Game a Month](http://www.onegameamonth.com/)?

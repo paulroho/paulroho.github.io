@@ -8,7 +8,7 @@ title: Blog
 	  {% for post in site.posts %}
 		{% unless post.layout == 'blogdraft' %}
 			<li>
-			  <a href="{{ post.url }}">{{ post.title }}</a>
+			  <a href="{{ post.url }}">{{ post.title }}{% if post.titleappendix %} ({{ post.titleappendix }}){% endif %}</a>
 			</li>
 		{% endunless %}
 	  {% endfor %}

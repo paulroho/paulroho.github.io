@@ -1,16 +1,12 @@
 ---
-title: Engineering Wunderlist for Android (César Valiente)
+title: Engineering Wunderlist for Android
+titleappendix: César Valiente
 tags: [Mobile App Europe 2014, Mobile Apps, Architecture, Android]
----
-
-Mobile App Europe 2014 Notes
-
-Engineering Wunderlist for Android
-===
-Notes on a [session](http://mobileappeurope.com/talks/engineering-wunderlist-android/ "Engineering Wunderlist for Android")
-by César Valiente (6Wunderkinder GmbH)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [session](http://mobileappeurope.com/talks/engineering-wunderlist-android/ "Engineering Wunderlist for Android")
+  by César Valiente (6Wunderkinder GmbH)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 César showed off the architecture of the [Wunderlist App for Android](https://play.google.com/store/apps/details?id=com.wunderkinder.wunderlistandroid "Wunderlist App in the Google Play Store") for [Wunderlist](https://www.wunderlist.com/). 

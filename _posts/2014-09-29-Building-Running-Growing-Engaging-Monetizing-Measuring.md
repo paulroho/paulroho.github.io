@@ -1,17 +1,14 @@
 ---
-title: Building, Running, Growing, Engaging, Monetizing, Measuring – 360 degree for Mobile Apps with Google (Jens Bussmann)
+title: Building, Running, Growing, Engaging, Monetizing, Measuring – 360 degree for Mobile Apps with Google
+titleappendix: Jens Bussmann
 tags: [Mobile App Europe 2014, Mobile Apps]
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [keynote](http://mobileappeurope.com/talks/building-running-growing-engaging-monetizing-measuring-360-mobile-apps-google/ "Keynote: Building, Running, Growing, Engaging, Monetizing, Measuring – 360° for Mobile Apps with Google")
+  by Jens Bussmann (Google)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
-Mobile App Europe 2014 Notes
-
-Keynote: Building, Running, Growing, Engaging, Monetizing, Measuring – 360° for Mobile Apps with Google
-===
-Notes on a [keynote](http://mobileappeurope.com/talks/building-running-growing-engaging-monetizing-measuring-360-mobile-apps-google/ "Keynote: Building, Running, Growing, Engaging, Monetizing, Measuring – 360° for Mobile Apps with Google")
-by Jens Bussmann (Google)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
----
 The keynote startet off presenting two images showing the crowd in Rome from the time a pope was to be elected. The first one was taken in 2005. On this picture you could see just a single little feature phone. Remember that at time, Smartphones as we know them today were not on the market yet. The second picture was taken in 2013. On that picture, there are mobile screens just everywhere.
 
 Since this pair of images got viral, you can easily find them by yourself, but here is the original place: [What a difference 8 years makes (nbc news on instragram)](http://instagram.com/p/W2FCksR9-e/).

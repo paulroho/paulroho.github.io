@@ -1,16 +1,12 @@
 ---
-title: Building Apps with Facebook (Julien Lesaicherre)
+title: Building Apps with Facebook
+titleappendix: Julien Lesaicherre
 tags: [Mobile App Europe 2014, Mobile Apps]
----
-
-Mobile App Europe 2014 Notes
-
-Building Apps with Facebook
-===
-Notes on a [keynote](http://mobileappeurope.com/talks/building-apps-facebook/ "Building Apps with Facebook")
-by Julien Lesaicherre (Facebook)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [keynote](http://mobileappeurope.com/talks/building-apps-facebook/ "Building Apps with Facebook")
+  by Julien Lesaicherre (Facebook)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 * Mobile has overtaken desktop

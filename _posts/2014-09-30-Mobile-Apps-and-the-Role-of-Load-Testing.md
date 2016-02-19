@@ -1,16 +1,12 @@
 ---
-title: Mobile Apps and the Role of Load Testing (Peter Varhol)
+title: Mobile Apps and the Role of Load Testing
+titleappendix: Peter Varhol
 tags: [Mobile App Europe 2014, Mobile Apps, Testing, Load Testing]
----
-
-Mobile App Europe 2014 Notes
-
-Mobile Apps and the Role of Load Testing
-===
-Notes on a [session](http://mobileappeurope.com/talks/mobile-apps-role-load-testing/ "Mobile Apps and the Role of Load Testing")
-by Peter Varhol (Aras Corporation)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [session](http://mobileappeurope.com/talks/mobile-apps-role-load-testing/ "Mobile Apps and the Role of Load Testing")
+  by Peter Varhol (Aras Corporation)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 ##Why Load Test Mobile Apps?

@@ -1,16 +1,12 @@
 ---
-title: Effective QA – Is It Really Necessary (Martin Wrigley)
+title: Effective QA – Is It Really Necessary
+titleappendix: Martin Wrigley
 tags: [Mobile App Europe 2014, Mobile Apps, Testing]
----
-
-Mobile App Europe 2014 Notes
-
-Keynote: Effective QA – Is It Really Necessary?
-===
-Notes on a [keynote](http://mobileappeurope.com/talks/effective-qa-really-necessary/ "Keynote: Effective QA – Is It Really Necessary?")
-by Martin Wrigley (AQuA)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
+prehead: Mobile App Europe 2014 Notes
+posthead: >
+  Notes on a [keynote](http://mobileappeurope.com/talks/effective-qa-really-necessary/ "Keynote: Effective QA – Is It Really Necessary?")
+  by Martin Wrigley (AQuA)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
 QA and testing is all about Risk Management

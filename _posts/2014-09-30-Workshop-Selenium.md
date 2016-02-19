@@ -1,17 +1,14 @@
 ---
-title: Workshop Selenium, Selendroid and ios-driver Mobile and Web Automation Using One API and One Infrastructure (Michael Palotas)
+title: Workshop Selenium, Selendroid and ios-driver Mobile and Web Automation Using One API and One Infrastructure
+titleappendix: Michael Palotas
 tags: [Mobile App Europe 2014, Mobile Apps, Selenium, WebDriver, Testing]
+prehead: Mobile App Europe 2014 Notes
+posthead:  
+  Notes on a [workshop](http://mobileappeurope.com/talks/selenium-selendroid-and-ios-driver-mobile-and-web-automation-using-one-api-and-one-infrastructure/ "Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure")
+  by Michael Palotas (Gridfusion, eBay)
+  at the [Mobile App Europe 2014](http://mobileappeurope.com/).
 ---
 
-Mobile App Europe 2014 Notes
-
-Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure
-===
-Notes on a [workshop](http://mobileappeurope.com/talks/selenium-selendroid-and-ios-driver-mobile-and-web-automation-using-one-api-and-one-infrastructure/ "Workshop Selenium, Selendroid and ios-driver: Mobile and Web Automation Using One API and One Infrastructure")
-by Michael Palotas (Gridfusion, eBay)
-at the [Mobile App Europe 2014](http://mobileappeurope.com/).
-
----
 * End-to-end-test over different devices (desktop - mobile - tablet)
 * Ability to directly access an API or a database
 * Selenium webdriver is **becoming a [W3C standard](http://www.w3.org/TR/webdriver)** -> Every browser will support Selenium!
