@@ -1,14 +1,18 @@
 ---
 layout: blog
-title: Blog
+title: PaulRoho's Blog
+extrastylesheet: blogindex.css
 ---
-	  <h1>PaulRoho's Blog</h1>
 	  <p>Latest post excerpts</p>
 	<ul>
 	  {% for post in site.posts %}
 		{% unless post.layout == 'blogdraft' %}
 			<li>
-			  <a href="{{ post.url }}">{{ post.title }}{% if post.titleappendix %} ({{ post.titleappendix }}){% endif %}</a>
+			  <a href="{{ post.url }}">{{ post.title }}
+            {% if post.titleappendix %}
+            <span class="title-appendix">{{ post.titleappendix }}</span>
+            {% endif %}
+           </a>
 			</li>
 		{% endunless %}
 	  {% endfor %}
