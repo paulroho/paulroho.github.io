@@ -3,7 +3,7 @@ title: How to Innovate Business Processes and Create a Consumer-Grade User Exper
 titleappendix: Oliver Betz
 tags: [Mobile App Europe 2014, Mobile Apps]
 prehead: Mobile App Europe 2014 Notes
-posthead: >
+subtitle: >
   Notes on a [session](http://mobileappeurope.com/talks/innovate-business-processes-create-consumer-grade-user-experience-tailored-enterprise-ready-mobile-solutions/ "How to Innovate Business Processes and Create a Consumer-Grade User Experience with Tailored Enterprise-Ready Mobile Solutions")
   by Oliver Betz (SAP) 
   at the [Mobile App Europe 2014](http://mobileappeurope.com/).

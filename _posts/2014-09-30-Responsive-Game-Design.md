@@ -3,7 +3,7 @@ title: Responsive Game Design
 titleappendix: Jesse Freeman
 tags: [Mobile App Europe 2014, Mobile Apps, Games]
 prehead: Mobile App Europe 2014 Notes
-posthead: >
+subtitle: >
   Notes on a [keynote](http://mobileappeurope.com/talks/responsive-game-design/ "Keynote: Responsive Game Design")
   by Jesse Freeman (Amazon Apps & Games)
   at the [Mobile App Europe 2014](http://mobileappeurope.com/).

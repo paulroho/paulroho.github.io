@@ -3,7 +3,7 @@ title: Building Apps with Facebook
 titleappendix: Julien Lesaicherre
 tags: [Mobile App Europe 2014, Mobile Apps]
 prehead: Mobile App Europe 2014 Notes
-posthead: >
+subtitle: >
   Notes on a [keynote](http://mobileappeurope.com/talks/building-apps-facebook/ "Building Apps with Facebook")
   by Julien Lesaicherre (Facebook)
   at the [Mobile App Europe 2014](http://mobileappeurope.com/).

@@ -3,7 +3,7 @@ title: Judging People – Why We Are Wrong When We Think We Are Right
 titleappendix: Dr. Chaehan So
 tags: [Mobile App Europe 2014, Mobile Apps, Psychology]
 prehead: Mobile App Europe 2014 Notes
-posthead: >
+subtitle: >
   Notes on a [keynote](http://mobileappeurope.com/talks/judging-people-wrong-think-right/ "Keynote: Judging People – Why We Are Wrong When We Think We Are Right")
   by [Dr. Chaehan So](http://twitter.com/agilebean/) (Axel Springer Ideas Engineering)
   at the [Mobile App Europe 2014](http://mobileappeurope.com/).

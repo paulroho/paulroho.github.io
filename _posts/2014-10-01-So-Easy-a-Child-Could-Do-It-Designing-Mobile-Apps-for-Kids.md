@@ -3,7 +3,7 @@ title: So Easy a Child Could Do It - Designing Mobile Apps for Kids
 titleappendix: Kathryn Rotondo
 tags: [Mobile App Europe 2014, Mobile Apps, Children, Design, Usability, UX, Games]
 prehead: Mobile App Europe 2014 Notes
-posthead: > 
+subtitle: > 
   Notes on a [session](http://mobileappeurope.com/talks/so-easy-a-child-could-do-it-designing-mobile-apps-kids/ "So Easy a Child Could Do It: Designing Mobile Apps for Kids")
   by [Kathryn Rotondo](http://twitter.com/krotondo) ([motherboardpodcast.com](http://motherboardpodcast.com))
   at the [Mobile App Europe 2014](http://mobileappeurope.com/).

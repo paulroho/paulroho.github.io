@@ -3,7 +3,7 @@ title: Building, Running, Growing, Engaging, Monetizing, Measuring – 360 degre
 titleappendix: Jens Bussmann
 tags: [Mobile App Europe 2014, Mobile Apps]
 prehead: Mobile App Europe 2014 Notes
-posthead: >
+subtitle: >
   Notes on a [keynote](http://mobileappeurope.com/talks/building-running-growing-engaging-monetizing-measuring-360-mobile-apps-google/ "Keynote: Building, Running, Growing, Engaging, Monetizing, Measuring – 360° for Mobile Apps with Google")
   by Jens Bussmann (Google)
   at the [Mobile App Europe 2014](http://mobileappeurope.com/).

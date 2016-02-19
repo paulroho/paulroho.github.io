@@ -3,7 +3,7 @@ title: How to Use Mobile Emulators and Simulators to Test the Mobile Diversity
 titleappendix: Stefan Gwihs & Philipp Strelka
 tags: [Mobile App Europe 2014, Mobile Apps, Testing]
 prehead: Mobile App Europe 2014 Notes
-posthead: > 
+subtitle: > 
   Notes on a [session](http://mobileappeurope.com/talks/use-mobile-emulators-simulators-test-mobile-diversity/ "How to Use Mobile Emulators and Simulators to Test the Mobile Diversity")
   by Stefan Gwihs & Philipp Strelka (Anecon)
   at the [Mobile App Europe 2014](http://mobileappeurope.com/).
