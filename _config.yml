@@ -18,8 +18,9 @@ defaults:
       layout: "blog"
       comments: true
       prehead: Mobile App Europe 2014 Notes
+      includeinindex: true
       
 collections:
   mae2014notes:
     output: true
-    permalink: /mae2014notes/:year/:month/:title
+    permalink: /blog/2014/MobileAppEurope/:title
