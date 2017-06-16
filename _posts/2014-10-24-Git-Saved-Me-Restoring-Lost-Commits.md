@@ -68,7 +68,7 @@ All the commits that my local master was ahead of the remote master were gone!
 ![OMG!](/images/posts/GitRecoverLostCommits/terrified.png)
 {: .image}
 
-##The Cure
+## The Cure
 In this desperate situation, I fortunately found a post named [restoring lost commits](http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html) on [Nick Quaranto](https://twitter.com/qrush)'s awesome [git ready](http://gitready.com/) site.
 With the help of this concise and clear post, I managed to get back my lost commits in a matter of minutes. Most of that time was due to making safety copies and double-checking everything I did.
 
@@ -76,13 +76,13 @@ Nick's post basically shows how to get back commits that have already been marke
 
 Here are the steps following Nick's post for my special situation:
 
-###1. Make A Backup Copy
+### 1. Make A Backup Copy
 
 Since I have managed to mess up my repository in a second, I wanted to make sure, that I would not ultimately destroy all my hopes by another mistake.
 
 Although git might seem magical at times, it is completely filesystem based. A simple copy/paste backup of the whole working directory (along with the .git folder) is fine for a quick safety net.
 
-###2. List The No More Assigned Objects In The Repository
+### 2. List The No More Assigned Objects In The Repository
 
 First I needed to see if git still knows my vanished commits. For that matter there is git's ````fsck```` command:  
 
@@ -95,7 +95,7 @@ In my current case this is what came out:
 
 So I was a bit relieved. There seemed to be a good chance to really recover my lost work. 
 
-###3. Merge The Lost Commits Back Into The Current Branch
+### 3. Merge The Lost Commits Back Into The Current Branch
 
 The next step was bringing back the lost commits to the current branch. From Nick's post it was not super clear to me, if I would have to do it commit by commit, or if it would be possible to get back all commits at once. Since I had my backup copy, I could experiment without fear.
 
@@ -121,7 +121,7 @@ All my believed to be lost commits were back in business.
 ![Happy again!](/images/posts/GitRecoverLostCommits/happy.png)
 {: .image}
 
-###4. Push It, Baby, Push It!
+### 4. Push It, Baby, Push It!
 
 Now that I could successfully reanimate my sick repository, I wanted to make sure to not happen this again by pushing to the remote branch.
 
