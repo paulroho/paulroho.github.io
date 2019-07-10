@@ -1,4 +1,7 @@
-# Cleaning up Tags in git
+---
+title: Cleaning up Tags in git
+tags: [git]
+---
 
 Tags are similar to branches as pointers to a specific commit. The difference is that during its lifetime a branch can (and typically will) point to different commits, while a tag remains pointing to one specific commit.
 
