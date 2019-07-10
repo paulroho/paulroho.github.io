@@ -7,15 +7,18 @@ Tags are similar to branches as pointers to a specific commit. The difference is
 
 ## Warning
 Tag names can be used in several places where branch names can be used, e.g. to checkout a specific commit:
+
     $ git checkout {branch|tag-name}
 
 Mind the order here. In case there is a branch with the same name as a tag, the branch will be used:
+
     $ git checkout BRANCH_OR_TAG
     warning: refname 'BRANCH_OR_TAG' is ambiguous.
     Previous HEAD position was b948af82c Commit to be tagged
     Switched to branch 'BRANCH_OR_TAG'
 
 To avoid surprises either check up-front that there is no equally named branch, or be explicit about it, e.g. by qualifying the tag:
+
     $ git checkout refs/tags/BRANCH_OR_TAG
     Note: checking out 'refs/tags/BRANCH_OR_TAG'.
 
@@ -35,9 +38,11 @@ To avoid surprises either check up-front that there is no equally named branch, 
 ## Listing Tags
 
 List all local tags:
+
     $ git tag
 
 List all tags on a remote:
+
     $ git ls-remote --tags
 
 Or if you have multiple remotes:
@@ -47,7 +52,9 @@ Or if you have multiple remotes:
 ## Deleting Tags
 
 Delete a local tag:
+
     $ git tag -d {tag-name}
 
 Delete a tag on a remote:
+
     $ git push --delete {tag-name}
