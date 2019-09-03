@@ -4,11 +4,9 @@ title: Upgrade Work Item Types for AzureDevOps Server/TFS to Support Pull Reques
 tags: [Developer Workflow, Pull Requests, AzureDevOps]
 ---
 
-# Upgrade Work Item Types for AzureDevOps Server/TFS to Support Pull Requests
-
 Recently my client upgraded from TFS 2017 (on-premise) to AzureDevOps Server. Besides the new UI everything seemed to work fine. Just as I wanted to complete a pull request, I faced the following error message:
 
-![Error message on attempting to complete the pull request](/images/posts/AzureDevOpsUpgradeWorkItemTemplates/ErrorMessage.PNG)
+![Error message on attempting to complete the pull request](/images/posts/AzureDevOpsUpgradeWorkItemTypes/ErrorMessage.PNG)
 {: .image}
 
 By googling I found a proper [question on StackOverflow](https://stackoverflow.com/questions/50935155/tfs-cannot-complete-product-backlog-item-because-there-is-no-transition-from-co) with a [helpful answer](https://stackoverflow.com/a/50941616/571213) and a supplementing comment on the implementation.
@@ -34,7 +32,7 @@ Remark: Although on the [Microsoft Docs-Page regard the witadmin cli tool](https
 
 * Locate all nodes transiting to 'Done' (XPath `/witd:WITD/WORKITEMTYPE/WORKFLOW/TRANSITIONS/TRANSITION[@to="Done"]`):
 
-![A transition to 'Done' without actions in a work item type definition](/images/posts/AzureDevOpsUpgradeWorkItemTemplates/witp_before.PNG)
+![A transition to 'Done' without actions in a work item type definition](/images/posts/AzureDevOpsUpgradeWorkItemTypes/witp_before.PNG)
 {: .image}
 
 * Add an action to the transition:
@@ -43,7 +41,7 @@ Remark: Although on the [Microsoft Docs-Page regard the witadmin cli tool](https
         <ACTION value="microsoft.vsts.actions.checkin"/>  
     </ACTIONS>
 
-![A transition to 'Done' with an action defined](/images/posts/AzureDevOpsUpgradeWorkItemTemplates/witp_after.PNG)
+![A transition to 'Done' with an action defined](/images/posts/AzureDevOpsUpgradeWorkItemTypes/witp_after.PNG)
 {: .image}
 
 
@@ -58,5 +56,5 @@ Each invocation should conclude with
 
 Done:
 
-![No more error message on attempting to complete the pull request](/images/posts/AzureDevOpsUpgradeWorkItemTemplates/NoMoreErrorMessage.PNG)
+![No more error message on attempting to complete the pull request](/images/posts/AzureDevOpsUpgradeWorkItemTypes/NoMoreErrorMessage.PNG)
 {: .image}
