@@ -6,9 +6,7 @@ tags: [Developer Workflow, Pull Requests, AzureDevOps]
 
 # Upgrade Work Item Types for AzureDevOps Server/TFS to Support Pull Requests
 
-Upgrade from TFS 2017 (on-premise) to AzureDevOps Server. Besides the new UI everything seemed to work.
-
-Just as I wanted to complete a pull request, I faced the following error message:
+Recently my client upgraded from TFS 2017 (on-premise) to AzureDevOps Server. Besides the new UI everything seemed to work fine. Just as I wanted to complete a pull request, I faced the following error message:
 
 ![Error message on attempting to complete the pull request](/images/posts/AzureDevOpsUpgradeWorkItemTemplates/ErrorMessage.PNG)
 {: .image}
