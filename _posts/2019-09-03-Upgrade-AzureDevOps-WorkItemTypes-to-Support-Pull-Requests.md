@@ -1,4 +1,10 @@
-# Upgrade TFS Work Item Types to Support Pull Requests
+---
+title: Upgrade Work Item Types for AzureDevOps Server/TFS to Support Pull Requests
+
+tags: [Developer Workflow, Pull Requests, AzureDevOps]
+---
+
+# Upgrade Work Item Types for AzureDevOps Server/TFS to Support Pull Requests
 
 Upgrade from TFS 2017 (on-premise) to AzureDevOps Server. Besides the new UI everything seemed to work.
 
