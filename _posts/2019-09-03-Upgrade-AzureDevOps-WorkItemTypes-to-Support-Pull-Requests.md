@@ -34,7 +34,7 @@ Remark: Although on the [Microsoft Docs-Page regard the witadmin cli tool](https
 
 ## 2. Enter Up the Missing Transition Actions
 
-* Locate all nodes with `/witd:WITD/WORKITEMTYPE/WORKFLOW/TRANSITIONS/TRANSITION[@to="Done"]`:
+* Locate all nodes transiting to 'Done' (XPath `/witd:WITD/WORKITEMTYPE/WORKFLOW/TRANSITIONS/TRANSITION[@to="Done"]`):
 
 ![A transition to 'Done' without actions in a work item type definition](/images/posts/AzureDevOpsUpgradeWorkItemTemplates/witp_before.PNG)
 {: .image}
